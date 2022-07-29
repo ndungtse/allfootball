@@ -19,8 +19,9 @@ const appDefaultValues = {
 const themes = {
     light: {
         text: 'text-black',
-        bg: 'bg-black',
+        bg: 'bg-white',
         bg1: 'bg-orange-600',
+        bgAlt: 'bg-slate-100',
         textAlt: 'text-white',
         textAlt1: 'text-orange-600',
         color: '#ff850b',
@@ -30,6 +31,7 @@ const themes = {
         text: 'text-white',
         bg: 'bg-black',
         bg1: 'bg-orange-600',
+        bgAlt: 'bg-slate-100',
         textAlt: 'text-black',
         textAlt1: 'text-orange-600',
         color: '#ff850b',
