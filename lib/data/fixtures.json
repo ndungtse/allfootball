@@ -1,0 +1,6734 @@
+[
+    {
+        "fixture": {
+            "id": 837043,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 612,
+                "name": "Sarpugerði",
+                "city": "Norðragøta, Eysturoy"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 367,
+            "name": "Meistaradeildin",
+            "country": "Faroe-Islands",
+            "logo": "https://media.api-sports.io/football/leagues/367.png",
+            "flag": "https://media.api-sports.io/flags/fo.svg",
+            "season": 2022,
+            "round": "Regular Season - 17"
+        },
+        "teams": {
+            "home": {
+                "id": 580,
+                "name": "Vikingur Gota",
+                "logo": "https://media.api-sports.io/football/teams/580.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4174,
+                "name": "07 Vestur",
+                "logo": "https://media.api-sports.io/football/teams/4174.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 837306,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 366,
+            "name": "1. Deild",
+            "country": "Faroe-Islands",
+            "logo": "https://media.api-sports.io/football/leagues/366.png",
+            "flag": "https://media.api-sports.io/flags/fo.svg",
+            "season": 2022,
+            "round": "Regular Season - 17"
+        },
+        "teams": {
+            "home": {
+                "id": 4176,
+                "name": "B71",
+                "logo": "https://media.api-sports.io/football/teams/4176.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4185,
+                "name": "B36 II",
+                "logo": "https://media.api-sports.io/football/teams/4185.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 837307,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 366,
+            "name": "1. Deild",
+            "country": "Faroe-Islands",
+            "logo": "https://media.api-sports.io/football/leagues/366.png",
+            "flag": "https://media.api-sports.io/flags/fo.svg",
+            "season": 2022,
+            "round": "Regular Season - 17"
+        },
+        "teams": {
+            "home": {
+                "id": 4181,
+                "name": "NSÍ II",
+                "logo": "https://media.api-sports.io/football/teams/4181.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4192,
+                "name": "TB",
+                "logo": "https://media.api-sports.io/football/teams/4192.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 850399,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 169,
+                "name": "Stadyen Haradski",
+                "city": "Slutsk"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 116,
+            "name": "Premier League",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/116.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Regular Season - 16"
+        },
+        "teams": {
+            "home": {
+                "id": 379,
+                "name": "FC Slutsk",
+                "logo": "https://media.api-sports.io/football/teams/379.png",
+                "winner": null
+            },
+            "away": {
+                "id": 391,
+                "name": "FC Isloch Minsk R.",
+                "logo": "https://media.api-sports.io/football/teams/391.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 850400,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 170,
+                "name": "Stadyen Tarpeda",
+                "city": "Zhodino"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 116,
+            "name": "Premier League",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/116.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Regular Season - 16"
+        },
+        "teams": {
+            "home": {
+                "id": 385,
+                "name": "Torpedo Zhodino",
+                "logo": "https://media.api-sports.io/football/teams/385.png",
+                "winner": null
+            },
+            "away": {
+                "id": 387,
+                "name": "Neman",
+                "logo": "https://media.api-sports.io/football/teams/387.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 850401,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 164,
+                "name": "Stadyen Central'ny Vitsyebski",
+                "city": "Vitebsk"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 116,
+            "name": "Premier League",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/116.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Regular Season - 16"
+        },
+        "teams": {
+            "home": {
+                "id": 382,
+                "name": "FC Vitebsk",
+                "logo": "https://media.api-sports.io/football/teams/382.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2433,
+                "name": "FC Energetik-Bgu Minsk",
+                "logo": "https://media.api-sports.io/football/teams/2433.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 850403,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 162,
+                "name": "Stadyen Central'ny",
+                "city": "Gomel"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 116,
+            "name": "Premier League",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/116.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Regular Season - 16"
+        },
+        "teams": {
+            "home": {
+                "id": 389,
+                "name": "FC Gomel",
+                "logo": "https://media.api-sports.io/football/teams/389.png",
+                "winner": null
+            },
+            "away": {
+                "id": 9419,
+                "name": "Arsenal",
+                "logo": "https://media.api-sports.io/football/teams/9419.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 850404,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 7764,
+                "name": "Borisov Arena",
+                "city": "Borisov"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 116,
+            "name": "Premier League",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/116.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Regular Season - 16"
+        },
+        "teams": {
+            "home": {
+                "id": 388,
+                "name": "Bate Borisov",
+                "logo": "https://media.api-sports.io/football/teams/388.png",
+                "winner": null
+            },
+            "away": {
+                "id": 751,
+                "name": "Slavia Mozyr",
+                "logo": "https://media.api-sports.io/football/teams/751.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 850405,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 2595,
+                "name": "Stadyen Spartak",
+                "city": "Mogilev"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 116,
+            "name": "Premier League",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/116.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Regular Season - 16"
+        },
+        "teams": {
+            "home": {
+                "id": 384,
+                "name": "FC Dnepr Mogilev",
+                "logo": "https://media.api-sports.io/football/teams/384.png",
+                "winner": null
+            },
+            "away": {
+                "id": 3384,
+                "name": "Belshina",
+                "logo": "https://media.api-sports.io/football/teams/3384.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 851262,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 3051,
+                "name": "Lynn Family Stadium",
+                "city": "Louisville, Kentucky"
+            },
+            "status": {
+                "long": "Not Started",
+                "short": "NS",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 254,
+            "name": "NWSL Women",
+            "country": "USA",
+            "logo": "https://media.api-sports.io/football/leagues/254.png",
+            "flag": "https://media.api-sports.io/flags/us.svg",
+            "season": 2022,
+            "round": "Regular Season - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 16488,
+                "name": "Racing Louisville W",
+                "logo": "https://media.api-sports.io/football/teams/16488.png",
+                "winner": null
+            },
+            "away": {
+                "id": 3005,
+                "name": "Washington Spirit W",
+                "logo": "https://media.api-sports.io/football/teams/3005.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 855610,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 388,
+            "name": "1. Division",
+            "country": "Kazakhstan",
+            "logo": "https://media.api-sports.io/football/leagues/388.png",
+            "flag": "https://media.api-sports.io/flags/kz.svg",
+            "season": 2022,
+            "round": "Regular Season - 15"
+        },
+        "teams": {
+            "home": {
+                "id": 16610,
+                "name": "Yassy Turkistan",
+                "logo": "https://media.api-sports.io/football/teams/16610.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4550,
+                "name": "Bulat",
+                "logo": "https://media.api-sports.io/football/teams/4550.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 855611,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 388,
+            "name": "1. Division",
+            "country": "Kazakhstan",
+            "logo": "https://media.api-sports.io/football/leagues/388.png",
+            "flag": "https://media.api-sports.io/flags/kz.svg",
+            "season": 2022,
+            "round": "Regular Season - 15"
+        },
+        "teams": {
+            "home": {
+                "id": 4545,
+                "name": "Akademiya Ontustik",
+                "logo": "https://media.api-sports.io/football/teams/4545.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4548,
+                "name": "Astana II",
+                "logo": "https://media.api-sports.io/football/teams/4548.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 855613,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 388,
+            "name": "1. Division",
+            "country": "Kazakhstan",
+            "logo": "https://media.api-sports.io/football/leagues/388.png",
+            "flag": "https://media.api-sports.io/flags/kz.svg",
+            "season": 2022,
+            "round": "Regular Season - 15"
+        },
+        "teams": {
+            "home": {
+                "id": 16611,
+                "name": "Zhenys",
+                "logo": "https://media.api-sports.io/football/teams/16611.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4553,
+                "name": "Kyran",
+                "logo": "https://media.api-sports.io/football/teams/4553.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 855614,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 388,
+            "name": "1. Division",
+            "country": "Kazakhstan",
+            "logo": "https://media.api-sports.io/football/leagues/388.png",
+            "flag": "https://media.api-sports.io/flags/kz.svg",
+            "season": 2022,
+            "round": "Regular Season - 15"
+        },
+        "teams": {
+            "home": {
+                "id": 4549,
+                "name": "Baykonur",
+                "logo": "https://media.api-sports.io/football/teams/4549.png",
+                "winner": null
+            },
+            "away": {
+                "id": 16614,
+                "name": "Taraz Karatau",
+                "logo": "https://media.api-sports.io/football/teams/16614.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 855615,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 388,
+            "name": "1. Division",
+            "country": "Kazakhstan",
+            "logo": "https://media.api-sports.io/football/leagues/388.png",
+            "flag": "https://media.api-sports.io/flags/kz.svg",
+            "season": 2022,
+            "round": "Regular Season - 15"
+        },
+        "teams": {
+            "home": {
+                "id": 4551,
+                "name": "Ekibastuz",
+                "logo": "https://media.api-sports.io/football/teams/4551.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4556,
+                "name": "Sport Academy Kairat",
+                "logo": "https://media.api-sports.io/football/teams/4556.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858081,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 2204,
+                "name": "Stadyen Poles'e",
+                "city": "Luninets"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Brest Region - 13"
+        },
+        "teams": {
+            "home": {
+                "id": 16652,
+                "name": "Luninets",
+                "logo": "https://media.api-sports.io/football/teams/16652.png",
+                "winner": null
+            },
+            "away": {
+                "id": 16630,
+                "name": "DYUSSH Stolin",
+                "logo": "https://media.api-sports.io/football/teams/16630.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858124,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Brest Region - 13"
+        },
+        "teams": {
+            "home": {
+                "id": 16642,
+                "name": "Ivanovo",
+                "logo": "https://media.api-sports.io/football/teams/16642.png",
+                "winner": null
+            },
+            "away": {
+                "id": 7793,
+                "name": "DYuSSh-3 Pinsk",
+                "logo": "https://media.api-sports.io/football/teams/7793.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858125,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Match Cancelled",
+                "short": "CANC",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Brest Region - 13"
+        },
+        "teams": {
+            "home": {
+                "id": 16631,
+                "name": "Drogichin",
+                "logo": "https://media.api-sports.io/football/teams/16631.png",
+                "winner": null
+            },
+            "away": {
+                "id": 13146,
+                "name": "Dinamo Malorita",
+                "logo": "https://media.api-sports.io/football/teams/13146.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858126,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Brest Region - 13"
+        },
+        "teams": {
+            "home": {
+                "id": 7796,
+                "name": "Ivatsevichi",
+                "logo": "https://media.api-sports.io/football/teams/7796.png",
+                "winner": null
+            },
+            "away": {
+                "id": 16656,
+                "name": "Niva",
+                "logo": "https://media.api-sports.io/football/teams/16656.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858545,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Grodno Region - 11"
+        },
+        "teams": {
+            "home": {
+                "id": 16667,
+                "name": "Svislach",
+                "logo": "https://media.api-sports.io/football/teams/16667.png",
+                "winner": null
+            },
+            "away": {
+                "id": 18846,
+                "name": "FSK Dyatlovo",
+                "logo": "https://media.api-sports.io/football/teams/18846.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858546,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Grodno Region - 11"
+        },
+        "teams": {
+            "home": {
+                "id": 16662,
+                "name": "Schuchin",
+                "logo": "https://media.api-sports.io/football/teams/16662.png",
+                "winner": null
+            },
+            "away": {
+                "id": 13145,
+                "name": "Chayka Zelva",
+                "logo": "https://media.api-sports.io/football/teams/13145.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858547,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": "Stadyen Nyoman Iskusstvennoe pole",
+                "city": "Grodno"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Grodno Region - 11"
+        },
+        "teams": {
+            "home": {
+                "id": 18851,
+                "name": "Neman Belkard",
+                "logo": "https://media.api-sports.io/football/teams/18851.png",
+                "winner": null
+            },
+            "away": {
+                "id": 18847,
+                "name": "Fakel Novogrudok",
+                "logo": "https://media.api-sports.io/football/teams/18847.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858822,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Vitebsk Region - 13"
+        },
+        "teams": {
+            "home": {
+                "id": 16638,
+                "name": "Gazovik",
+                "logo": "https://media.api-sports.io/football/teams/16638.png",
+                "winner": null
+            },
+            "away": {
+                "id": 16648,
+                "name": "Lepel",
+                "logo": "https://media.api-sports.io/football/teams/16648.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858823,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Vitebsk Region - 13"
+        },
+        "teams": {
+            "home": {
+                "id": 16657,
+                "name": "Niva Tolochin",
+                "logo": "https://media.api-sports.io/football/teams/16657.png",
+                "winner": null
+            },
+            "away": {
+                "id": 16639,
+                "name": "Gorodok lions",
+                "logo": "https://media.api-sports.io/football/teams/16639.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858824,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Vitebsk Region - 13"
+        },
+        "teams": {
+            "home": {
+                "id": 11269,
+                "name": "Miory",
+                "logo": "https://media.api-sports.io/football/teams/11269.png",
+                "winner": null
+            },
+            "away": {
+                "id": 11250,
+                "name": "Polotsk",
+                "logo": "https://media.api-sports.io/football/teams/11250.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858867,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Minsk Region - 12"
+        },
+        "teams": {
+            "home": {
+                "id": 16647,
+                "name": "Krupki",
+                "logo": "https://media.api-sports.io/football/teams/16647.png",
+                "winner": null
+            },
+            "away": {
+                "id": 16627,
+                "name": "Berezino",
+                "logo": "https://media.api-sports.io/football/teams/16627.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858892,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Minsk Region - 12"
+        },
+        "teams": {
+            "home": {
+                "id": 7801,
+                "name": "Viktoriya Maryina Horka",
+                "logo": "https://media.api-sports.io/football/teams/7801.png",
+                "winner": null
+            },
+            "away": {
+                "id": 16643,
+                "name": "Kolos Cherven",
+                "logo": "https://media.api-sports.io/football/teams/16643.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858893,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Minsk Region - 12"
+        },
+        "teams": {
+            "home": {
+                "id": 16635,
+                "name": "FK Viliya",
+                "logo": "https://media.api-sports.io/football/teams/16635.png",
+                "winner": null
+            },
+            "away": {
+                "id": 16651,
+                "name": "Livadija",
+                "logo": "https://media.api-sports.io/football/teams/16651.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 858895,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Minsk Region - 12"
+        },
+        "teams": {
+            "home": {
+                "id": 16636,
+                "name": "Falko",
+                "logo": "https://media.api-sports.io/football/teams/16636.png",
+                "winner": null
+            },
+            "away": {
+                "id": 18861,
+                "name": "Zhodino Yuzhnoe",
+                "logo": "https://media.api-sports.io/football/teams/18861.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 860690,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Minsk Region - 12"
+        },
+        "teams": {
+            "home": {
+                "id": 7797,
+                "name": "Kletsk",
+                "logo": "https://media.api-sports.io/football/teams/7797.png",
+                "winner": null
+            },
+            "away": {
+                "id": 16677,
+                "name": "Spartak Slutsk",
+                "logo": "https://media.api-sports.io/football/teams/16677.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 860691,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Minsk Region - 12"
+        },
+        "teams": {
+            "home": {
+                "id": 16666,
+                "name": "Starye Dorogi",
+                "logo": "https://media.api-sports.io/football/teams/16666.png",
+                "winner": null
+            },
+            "away": {
+                "id": 16709,
+                "name": "Partizan Salihorsk",
+                "logo": "https://media.api-sports.io/football/teams/16709.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 860692,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Minsk Region - 12"
+        },
+        "teams": {
+            "home": {
+                "id": 18738,
+                "name": "Respect",
+                "logo": "https://media.api-sports.io/football/teams/18738.png",
+                "winner": null
+            },
+            "away": {
+                "id": 7800,
+                "name": "Uzda",
+                "logo": "https://media.api-sports.io/football/teams/7800.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 860693,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Minsk Region - 12"
+        },
+        "teams": {
+            "home": {
+                "id": 18842,
+                "name": "Bobovnya",
+                "logo": "https://media.api-sports.io/football/teams/18842.png",
+                "winner": null
+            },
+            "away": {
+                "id": 13147,
+                "name": "Kronon",
+                "logo": "https://media.api-sports.io/football/teams/13147.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 860871,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": "Stadyen Haradski Horki",
+                "city": "Horki"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Mogilev Region - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 7795,
+                "name": "Gorki",
+                "logo": "https://media.api-sports.io/football/teams/7795.png",
+                "winner": null
+            },
+            "away": {
+                "id": 18860,
+                "name": "Zarya Krugloe",
+                "logo": "https://media.api-sports.io/football/teams/18860.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 860872,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": "Stadyen Haradski Chavusy",
+                "city": "Chavusy"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Mogilev Region - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 18852,
+                "name": "Niva Chausy",
+                "logo": "https://media.api-sports.io/football/teams/18852.png",
+                "winner": null
+            },
+            "away": {
+                "id": 11257,
+                "name": "Spartak",
+                "logo": "https://media.api-sports.io/football/teams/11257.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 861437,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Gomel Region - 11"
+        },
+        "teams": {
+            "home": {
+                "id": 7811,
+                "name": "Vertykal",
+                "logo": "https://media.api-sports.io/football/teams/7811.png",
+                "winner": null
+            },
+            "away": {
+                "id": 16653,
+                "name": "Mozyr NPZ",
+                "logo": "https://media.api-sports.io/football/teams/16653.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 861438,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Gomel Region - 11"
+        },
+        "teams": {
+            "home": {
+                "id": 18849,
+                "name": "Iput DYuSSh",
+                "logo": "https://media.api-sports.io/football/teams/18849.png",
+                "winner": null
+            },
+            "away": {
+                "id": 7802,
+                "name": "Bumprom",
+                "logo": "https://media.api-sports.io/football/teams/7802.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 861439,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Gomel Region - 11"
+        },
+        "teams": {
+            "home": {
+                "id": 11258,
+                "name": "Zhlobin",
+                "logo": "https://media.api-sports.io/football/teams/11258.png",
+                "winner": null
+            },
+            "away": {
+                "id": 18859,
+                "name": "Vetka DYuSSh",
+                "logo": "https://media.api-sports.io/football/teams/18859.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 861440,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Gomel Region - 11"
+        },
+        "teams": {
+            "home": {
+                "id": 18844,
+                "name": "DYuSSh-2 Rechitsa",
+                "logo": "https://media.api-sports.io/football/teams/18844.png",
+                "winner": null
+            },
+            "away": {
+                "id": 16649,
+                "name": "Leskhoz",
+                "logo": "https://media.api-sports.io/football/teams/16649.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 862033,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": "Stadyen SOZH",
+                "city": "Krichev"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 118,
+            "name": "2. Division",
+            "country": "Belarus",
+            "logo": "https://media.api-sports.io/football/leagues/118.png",
+            "flag": "https://media.api-sports.io/flags/by.svg",
+            "season": 2022,
+            "round": "Mogilev Region - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 18854,
+                "name": "SOZh Krichev",
+                "logo": "https://media.api-sports.io/football/teams/18854.png",
+                "winner": null
+            },
+            "away": {
+                "id": 10243,
+                "name": "Servolyuks",
+                "logo": "https://media.api-sports.io/football/teams/10243.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 862330,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 498,
+            "name": "Cup",
+            "country": "Kazakhstan",
+            "logo": "https://media.api-sports.io/football/leagues/498.png",
+            "flag": "https://media.api-sports.io/flags/kz.svg",
+            "season": 2022,
+            "round": "Group Stage - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 4563,
+                "name": "Aktobe",
+                "logo": "https://media.api-sports.io/football/teams/4563.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4555,
+                "name": "Maqtaaral",
+                "logo": "https://media.api-sports.io/football/teams/4555.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 862359,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 498,
+            "name": "Cup",
+            "country": "Kazakhstan",
+            "logo": "https://media.api-sports.io/football/leagues/498.png",
+            "flag": "https://media.api-sports.io/flags/kz.svg",
+            "season": 2022,
+            "round": "Group Stage - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 2259,
+                "name": "FK Tobol Kostanay",
+                "logo": "https://media.api-sports.io/football/teams/2259.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4559,
+                "name": "Taraz",
+                "logo": "https://media.api-sports.io/football/teams/4559.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 862362,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 498,
+            "name": "Cup",
+            "country": "Kazakhstan",
+            "logo": "https://media.api-sports.io/football/leagues/498.png",
+            "flag": "https://media.api-sports.io/flags/kz.svg",
+            "season": 2022,
+            "round": "Group Stage - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 4564,
+                "name": "Atyrau",
+                "logo": "https://media.api-sports.io/football/teams/4564.png",
+                "winner": null
+            },
+            "away": {
+                "id": 10416,
+                "name": "FK Aksu",
+                "logo": "https://media.api-sports.io/football/teams/10416.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864149,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1082,
+                "name": "Estadio Cuauhtémoc",
+                "city": "Puebla"
+            },
+            "status": {
+                "long": "Not Started",
+                "short": "NS",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 262,
+            "name": "Liga MX",
+            "country": "Mexico",
+            "logo": "https://media.api-sports.io/football/leagues/262.png",
+            "flag": "https://media.api-sports.io/flags/mx.svg",
+            "season": 2022,
+            "round": "Apertura - 7"
+        },
+        "teams": {
+            "home": {
+                "id": 2291,
+                "name": "Puebla",
+                "logo": "https://media.api-sports.io/football/teams/2291.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2286,
+                "name": "U.N.A.M. - Pumas",
+                "logo": "https://media.api-sports.io/football/teams/2286.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864545,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 5709,
+                "name": "Estadio Alfredo Ramos",
+                "city": "Capital Federal, Ciudad de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 131,
+            "name": "Primera B Metropolitana",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/131.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 9"
+        },
+        "teams": {
+            "home": {
+                "id": 8008,
+                "name": "Comunicaciones",
+                "logo": "https://media.api-sports.io/football/teams/8008.png",
+                "winner": null
+            },
+            "away": {
+                "id": 8378,
+                "name": "JJ Urquiza",
+                "logo": "https://media.api-sports.io/football/teams/8378.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864546,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 90,
+                "name": "Estadio Eduardo Gallardón",
+                "city": "Lomas de Zamora, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 131,
+            "name": "Primera B Metropolitana",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/131.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 9"
+        },
+        "teams": {
+            "home": {
+                "id": 483,
+                "name": "Los Andes",
+                "logo": "https://media.api-sports.io/football/teams/483.png",
+                "winner": null
+            },
+            "away": {
+                "id": 8376,
+                "name": "Argentino Quilmes",
+                "logo": "https://media.api-sports.io/football/teams/8376.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864547,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 5969,
+                "name": "Estadio de Ituzaingó",
+                "city": "Ituzaingó, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 131,
+            "name": "Primera B Metropolitana",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/131.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 9"
+        },
+        "teams": {
+            "home": {
+                "id": 8386,
+                "name": "Ituzaingó",
+                "logo": "https://media.api-sports.io/football/teams/8386.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2425,
+                "name": "Acassuso",
+                "logo": "https://media.api-sports.io/football/teams/2425.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864548,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1915,
+                "name": "Estadio Municipal de Pilar",
+                "city": "Partido de Pilar, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 131,
+            "name": "Primera B Metropolitana",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/131.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 9"
+        },
+        "teams": {
+            "home": {
+                "id": 8374,
+                "name": "Fénix",
+                "logo": "https://media.api-sports.io/football/teams/8374.png",
+                "winner": null
+            },
+            "away": {
+                "id": 8377,
+                "name": "Colegiales",
+                "logo": "https://media.api-sports.io/football/teams/8377.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864549,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 5963,
+                "name": "Estadio Malvinas Argentinas",
+                "city": "Los Polvorines, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 131,
+            "name": "Primera B Metropolitana",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/131.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 9"
+        },
+        "teams": {
+            "home": {
+                "id": 8379,
+                "name": "San Miguel",
+                "logo": "https://media.api-sports.io/football/teams/8379.png",
+                "winner": null
+            },
+            "away": {
+                "id": 8383,
+                "name": "Deportivo Merlo",
+                "logo": "https://media.api-sports.io/football/teams/8383.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864550,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 62,
+                "name": "Estadio Armenia",
+                "city": "Ingeniero Maschwitz, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 131,
+            "name": "Primera B Metropolitana",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/131.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 9"
+        },
+        "teams": {
+            "home": {
+                "id": 2427,
+                "name": "Deportivo Armenio",
+                "logo": "https://media.api-sports.io/football/teams/2427.png",
+                "winner": null
+            },
+            "away": {
+                "id": 1927,
+                "name": "Talleres Remedios",
+                "logo": "https://media.api-sports.io/football/teams/1927.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864551,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 68,
+                "name": "Estadio de los Inmigrantes",
+                "city": "Avellaneda, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 131,
+            "name": "Primera B Metropolitana",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/131.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 9"
+        },
+        "teams": {
+            "home": {
+                "id": 2429,
+                "name": "Dock Sud",
+                "logo": "https://media.api-sports.io/football/teams/2429.png",
+                "winner": null
+            },
+            "away": {
+                "id": 1945,
+                "name": "Defensores Unidos",
+                "logo": "https://media.api-sports.io/football/teams/1945.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864552,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 10527,
+                "name": "Estadio Monumental de Villa Lynch",
+                "city": "General San Martín, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 131,
+            "name": "Primera B Metropolitana",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/131.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 9"
+        },
+        "teams": {
+            "home": {
+                "id": 1956,
+                "name": "UAI Urquiza",
+                "logo": "https://media.api-sports.io/football/teams/1956.png",
+                "winner": null
+            },
+            "away": {
+                "id": 8380,
+                "name": "Villa San Carlos",
+                "logo": "https://media.api-sports.io/football/teams/8380.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864842,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 5973,
+                "name": "Estadio Rodolfo Vicente Capocasa",
+                "city": "Claypole, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 132,
+            "name": "Primera C",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/132.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 8391,
+                "name": "Claypole",
+                "logo": "https://media.api-sports.io/football/teams/8391.png",
+                "winner": null
+            },
+            "away": {
+                "id": 8385,
+                "name": "Excursionistas",
+                "logo": "https://media.api-sports.io/football/teams/8385.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864843,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 116,
+                "name": "Estadio Saturnino Moure",
+                "city": "Avellaneda, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 132,
+            "name": "Primera C",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/132.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 1964,
+                "name": "Victoriano Arenas",
+                "logo": "https://media.api-sports.io/football/teams/1964.png",
+                "winner": null
+            },
+            "away": {
+                "id": 8395,
+                "name": "Liniers",
+                "logo": "https://media.api-sports.io/football/teams/8395.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864844,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 91,
+                "name": "Campo Municipal de Deportes",
+                "city": "Luján, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 132,
+            "name": "Primera C",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/132.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 1958,
+                "name": "Lujan",
+                "logo": "https://media.api-sports.io/football/teams/1958.png",
+                "winner": null
+            },
+            "away": {
+                "id": 1963,
+                "name": "Midland",
+                "logo": "https://media.api-sports.io/football/teams/1963.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864845,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 87,
+                "name": "Estadio Deportivo Laferrere",
+                "city": "Gregorio de Laferrere, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 132,
+            "name": "Primera C",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/132.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 1924,
+                "name": "Deportivo Laferrere",
+                "logo": "https://media.api-sports.io/football/teams/1924.png",
+                "winner": null
+            },
+            "away": {
+                "id": 8381,
+                "name": "Deportivo Español",
+                "logo": "https://media.api-sports.io/football/teams/8381.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864846,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 5977,
+                "name": "Estadio Rubén Carlos Vallejos",
+                "city": "Campana, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 132,
+            "name": "Primera C",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/132.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 8397,
+                "name": "Puerto Nuevo",
+                "logo": "https://media.api-sports.io/football/teams/8397.png",
+                "winner": null
+            },
+            "away": {
+                "id": 790,
+                "name": "Central Cordoba",
+                "logo": "https://media.api-sports.io/football/teams/790.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864847,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 36,
+                "name": "Estadio Juan Carlos Brieva",
+                "city": "Merlo, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 132,
+            "name": "Primera C",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/132.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 2430,
+                "name": "Argentino de Merlo",
+                "logo": "https://media.api-sports.io/football/teams/2430.png",
+                "winner": null
+            },
+            "away": {
+                "id": 8388,
+                "name": "Sportivo Italiano",
+                "logo": "https://media.api-sports.io/football/teams/8388.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864848,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 5965,
+                "name": "Estadio Norman Lee",
+                "city": "Berazategui, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 132,
+            "name": "Primera C",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/132.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 8382,
+                "name": "Berazategui",
+                "logo": "https://media.api-sports.io/football/teams/8382.png",
+                "winner": null
+            },
+            "away": {
+                "id": 1940,
+                "name": "Leandro N. Alem",
+                "logo": "https://media.api-sports.io/football/teams/1940.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864849,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 81,
+                "name": "Estadio Enrique VI",
+                "city": "Capital Federal, Ciudad de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 132,
+            "name": "Primera C",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/132.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 1955,
+                "name": "General Lamadrid",
+                "logo": "https://media.api-sports.io/football/teams/1955.png",
+                "winner": null
+            },
+            "away": {
+                "id": 8384,
+                "name": "El Porvenir",
+                "logo": "https://media.api-sports.io/football/teams/8384.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 864850,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1915,
+                "name": "Estadio Municipal de Pilar",
+                "city": "Partido de Pilar, Provincia de Buenos Aires"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 132,
+            "name": "Primera C",
+            "country": "Argentina",
+            "logo": "https://media.api-sports.io/football/leagues/132.png",
+            "flag": "https://media.api-sports.io/flags/ar.svg",
+            "season": 2022,
+            "round": "Apertura - 8"
+        },
+        "teams": {
+            "home": {
+                "id": 2422,
+                "name": "Real Pilar",
+                "logo": "https://media.api-sports.io/football/teams/2422.png",
+                "winner": null
+            },
+            "away": {
+                "id": 8387,
+                "name": "San Martín Burzaco",
+                "logo": "https://media.api-sports.io/football/teams/8387.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 868422,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1087,
+                "name": "Estadio Universitario de Nuevo León",
+                "city": "San Nicolás de los Garza"
+            },
+            "status": {
+                "long": "Not Started",
+                "short": "NS",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 673,
+            "name": "Liga MX Femenil",
+            "country": "Mexico",
+            "logo": "https://media.api-sports.io/football/leagues/673.png",
+            "flag": "https://media.api-sports.io/flags/mx.svg",
+            "season": 2022,
+            "round": "Apertura - 6"
+        },
+        "teams": {
+            "home": {
+                "id": 14884,
+                "name": "Tigres UANL W",
+                "logo": "https://media.api-sports.io/football/teams/14884.png",
+                "winner": null
+            },
+            "away": {
+                "id": 14882,
+                "name": "Puebla W",
+                "logo": "https://media.api-sports.io/football/teams/14882.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 869017,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 7861,
+                "name": "Gradski Stadion",
+                "city": "Vršac"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 287,
+            "name": "Prva Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/287.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 2"
+        },
+        "teams": {
+            "home": {
+                "id": 12329,
+                "name": "OFK Vršac",
+                "logo": "https://media.api-sports.io/football/teams/12329.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2652,
+                "name": "FK Zlatibor",
+                "logo": "https://media.api-sports.io/football/teams/2652.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 869018,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 18698,
+                "name": "GAT Arena",
+                "city": "Novi Sad"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 287,
+            "name": "Prva Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/287.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 2"
+        },
+        "teams": {
+            "home": {
+                "id": 2639,
+                "name": "Proleter Novi SAD",
+                "logo": "https://media.api-sports.io/football/teams/2639.png",
+                "winner": null
+            },
+            "away": {
+                "id": 12360,
+                "name": "Železničar Pančevo",
+                "logo": "https://media.api-sports.io/football/teams/12360.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 869019,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1422,
+                "name": "Stadion Mladost",
+                "city": "Kruševac"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 287,
+            "name": "Prva Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/287.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 2"
+        },
+        "teams": {
+            "home": {
+                "id": 2651,
+                "name": "FK Trayal",
+                "logo": "https://media.api-sports.io/football/teams/2651.png",
+                "winner": null
+            },
+            "away": {
+                "id": 12316,
+                "name": "IMT Novi Beograd",
+                "logo": "https://media.api-sports.io/football/teams/12316.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 869020,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 3247,
+                "name": "Rajko Mitić - Jug veštačka trava",
+                "city": "Beograd"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 287,
+            "name": "Prva Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/287.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 2"
+        },
+        "teams": {
+            "home": {
+                "id": 4252,
+                "name": "Grafičar",
+                "logo": "https://media.api-sports.io/football/teams/4252.png",
+                "winner": null
+            },
+            "away": {
+                "id": 12323,
+                "name": "Loznica",
+                "logo": "https://media.api-sports.io/football/teams/12323.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 869021,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 18676,
+                "name": "Stadion Radomir Antić",
+                "city": "Užice"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 287,
+            "name": "Prva Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/287.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 2"
+        },
+        "teams": {
+            "home": {
+                "id": 2641,
+                "name": "Sloboda Uzice",
+                "logo": "https://media.api-sports.io/football/teams/2641.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2637,
+                "name": "Macva",
+                "logo": "https://media.api-sports.io/football/teams/2637.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 869022,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 7867,
+                "name": "Stadion FK Radnički Beograd",
+                "city": "Beograd"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 287,
+            "name": "Prva Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/287.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 2"
+        },
+        "teams": {
+            "home": {
+                "id": 12335,
+                "name": "Radnički Novi Beograd",
+                "logo": "https://media.api-sports.io/football/teams/12335.png",
+                "winner": null
+            },
+            "away": {
+                "id": 12338,
+                "name": "Radnički Sr. Mitrovica",
+                "logo": "https://media.api-sports.io/football/teams/12338.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 869023,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1418,
+                "name": "Gradski Stadion",
+                "city": "Inđija"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 287,
+            "name": "Prva Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/287.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 2"
+        },
+        "teams": {
+            "home": {
+                "id": 2631,
+                "name": "Indjija",
+                "logo": "https://media.api-sports.io/football/teams/2631.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2647,
+                "name": "Metalac GM",
+                "logo": "https://media.api-sports.io/football/teams/2647.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 871052,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": "TBC",
+                "city": "TBC"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 667,
+            "name": "Friendlies Clubs",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/667.png",
+            "flag": null,
+            "season": 2022,
+            "round": "Club Friendlies 3"
+        },
+        "teams": {
+            "home": {
+                "id": 4715,
+                "name": "Excelsior Virton",
+                "logo": "https://media.api-sports.io/football/teams/4715.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2931,
+                "name": "Al-Fateh",
+                "logo": "https://media.api-sports.io/football/teams/2931.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 872742,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 283,
+                "name": "Stadion Beroe",
+                "city": "Stara Zagora"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 172,
+            "name": "First League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/172.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 857,
+                "name": "Beroe",
+                "logo": "https://media.api-sports.io/football/teams/857.png",
+                "winner": null
+            },
+            "away": {
+                "id": 851,
+                "name": "Cherno More Varna",
+                "logo": "https://media.api-sports.io/football/teams/851.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 872743,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 284,
+                "name": "Sporten kompleks Botev 1912",
+                "city": "Plovdiv"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 172,
+            "name": "First League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/172.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 634,
+                "name": "Botev Plovdiv",
+                "logo": "https://media.api-sports.io/football/teams/634.png",
+                "winner": null
+            },
+            "away": {
+                "id": 853,
+                "name": "CSKA Sofia",
+                "logo": "https://media.api-sports.io/football/teams/853.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 872744,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1912,
+                "name": "Stadion Vasil Levski",
+                "city": "Sofia"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 172,
+            "name": "First League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/172.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 856,
+                "name": "Septemvri Sofia",
+                "logo": "https://media.api-sports.io/football/teams/856.png",
+                "winner": null
+            },
+            "away": {
+                "id": 1416,
+                "name": "Lokomotiv Sofia",
+                "logo": "https://media.api-sports.io/football/teams/1416.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 872745,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 298,
+                "name": "Stadion Lokomotiv",
+                "city": "Plovdiv"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 172,
+            "name": "First League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/172.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 858,
+                "name": "Lokomotiv Plovdiv",
+                "logo": "https://media.api-sports.io/football/teams/858.png",
+                "winner": null
+            },
+            "away": {
+                "id": 1430,
+                "name": "Arda Kardzhali",
+                "logo": "https://media.api-sports.io/football/teams/1430.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 872746,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1912,
+                "name": "Stadion Vitosha",
+                "city": "Bistrica"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 172,
+            "name": "First League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/172.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 1426,
+                "name": "CSKA 1948",
+                "logo": "https://media.api-sports.io/football/teams/1426.png",
+                "winner": null
+            },
+            "away": {
+                "id": 859,
+                "name": "Botev Vratsa",
+                "logo": "https://media.api-sports.io/football/teams/859.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 872747,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 3512,
+                "name": "Stadion Spartak",
+                "city": "Varna"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 172,
+            "name": "First League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/172.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 4660,
+                "name": "Spartak Varna",
+                "logo": "https://media.api-sports.io/football/teams/4660.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4659,
+                "name": "Hebar 1918",
+                "logo": "https://media.api-sports.io/football/teams/4659.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 872748,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 18616,
+                "name": "Stadion Aleksandar Shalamanov",
+                "city": "Sofia"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 172,
+            "name": "First League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/172.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 854,
+                "name": "Slavia Sofia",
+                "logo": "https://media.api-sports.io/football/teams/854.png",
+                "winner": null
+            },
+            "away": {
+                "id": 566,
+                "name": "Ludogorets",
+                "logo": "https://media.api-sports.io/football/teams/566.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 872749,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 297,
+                "name": "Vivacom Arena - Georgi Asparuhov",
+                "city": "Sofia"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 172,
+            "name": "First League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/172.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 646,
+                "name": "Levski Sofia",
+                "logo": "https://media.api-sports.io/football/teams/646.png",
+                "winner": null
+            },
+            "away": {
+                "id": 1428,
+                "name": "Pirin Blagoevgrad",
+                "logo": "https://media.api-sports.io/football/teams/1428.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876751,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1440,
+                "name": "Športni Park",
+                "city": "Domžale"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 373,
+            "name": "1. SNL",
+            "country": "Slovenia",
+            "logo": "https://media.api-sports.io/football/leagues/373.png",
+            "flag": "https://media.api-sports.io/flags/si.svg",
+            "season": 2022,
+            "round": "Regular Season - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 4378,
+                "name": "Radomlje",
+                "logo": "https://media.api-sports.io/football/teams/4378.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4197,
+                "name": "Mura",
+                "logo": "https://media.api-sports.io/football/teams/4197.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876752,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 3334,
+                "name": "Stadion Rajko Štolfa",
+                "city": "Sežana"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 373,
+            "name": "1. SNL",
+            "country": "Slovenia",
+            "logo": "https://media.api-sports.io/football/leagues/373.png",
+            "flag": "https://media.api-sports.io/flags/si.svg",
+            "season": 2022,
+            "round": "Regular Season - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 4362,
+                "name": "Tabor Sežana",
+                "logo": "https://media.api-sports.io/football/teams/4362.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4360,
+                "name": "Celje",
+                "logo": "https://media.api-sports.io/football/teams/4360.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876753,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 11939,
+                "name": "Športni Park Šiška",
+                "city": "Ljubljana"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 373,
+            "name": "1. SNL",
+            "country": "Slovenia",
+            "logo": "https://media.api-sports.io/football/leagues/373.png",
+            "flag": "https://media.api-sports.io/flags/si.svg",
+            "season": 2022,
+            "round": "Regular Season - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 4359,
+                "name": "Bravo",
+                "logo": "https://media.api-sports.io/football/teams/4359.png",
+                "winner": null
+            },
+            "away": {
+                "id": 615,
+                "name": "NK Domzale",
+                "logo": "https://media.api-sports.io/football/teams/615.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876754,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1441,
+                "name": "Ljudski vrt",
+                "city": "Maribor"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 373,
+            "name": "1. SNL",
+            "country": "Slovenia",
+            "logo": "https://media.api-sports.io/football/leagues/373.png",
+            "flag": "https://media.api-sports.io/flags/si.svg",
+            "season": 2022,
+            "round": "Regular Season - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 552,
+                "name": "Maribor",
+                "logo": "https://media.api-sports.io/football/teams/552.png",
+                "winner": null
+            },
+            "away": {
+                "id": 677,
+                "name": "Olimpija Ljubljana",
+                "logo": "https://media.api-sports.io/football/teams/677.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876755,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 3336,
+                "name": "Športni Park",
+                "city": "Nova Gorica"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 373,
+            "name": "1. SNL",
+            "country": "Slovenia",
+            "logo": "https://media.api-sports.io/football/leagues/373.png",
+            "flag": "https://media.api-sports.io/flags/si.svg",
+            "season": 2022,
+            "round": "Regular Season - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 4364,
+                "name": "Gorica",
+                "logo": "https://media.api-sports.io/football/teams/4364.png",
+                "winner": null
+            },
+            "away": {
+                "id": 4374,
+                "name": "Koper",
+                "logo": "https://media.api-sports.io/football/teams/4374.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876948,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 10502,
+                "name": "Mladost Stadium Lučani",
+                "city": "Lučani"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 286,
+            "name": "Super Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/286.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 699,
+                "name": "Mladost Lucani",
+                "logo": "https://media.api-sports.io/football/teams/699.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2254,
+                "name": "Radnicki NIS",
+                "logo": "https://media.api-sports.io/football/teams/2254.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876949,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1416,
+                "name": "Stadion Surdulica",
+                "city": "Surdulica"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 286,
+            "name": "Super Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/286.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 2657,
+                "name": "Radnik Surdulica",
+                "logo": "https://media.api-sports.io/football/teams/2657.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2636,
+                "name": "Kolubara",
+                "logo": "https://media.api-sports.io/football/teams/2636.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876950,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1425,
+                "name": "Stadion Karađorđe",
+                "city": "Novi Sad"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 286,
+            "name": "Super Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/286.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 702,
+                "name": "Vojvodina",
+                "logo": "https://media.api-sports.io/football/teams/702.png",
+                "winner": null
+            },
+            "away": {
+                "id": 598,
+                "name": "FK Crvena Zvezda",
+                "logo": "https://media.api-sports.io/football/teams/598.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876951,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1431,
+                "name": "Stadion Event Place",
+                "city": "Beograd"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 286,
+            "name": "Super Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/286.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 2658,
+                "name": "FK Vozdovac",
+                "logo": "https://media.api-sports.io/football/teams/2658.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2644,
+                "name": "Radnicki 1923",
+                "logo": "https://media.api-sports.io/football/teams/2644.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876952,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1411,
+                "name": "Stadion na Banovom brdu",
+                "city": "Beograd"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 286,
+            "name": "Super Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/286.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 2656,
+                "name": "Cukaricki",
+                "logo": "https://media.api-sports.io/football/teams/2656.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2251,
+                "name": "FK Spartak Zdrepceva KRV",
+                "logo": "https://media.api-sports.io/football/teams/2251.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876953,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 10501,
+                "name": "Stadion Ivanjica",
+                "city": "Ivanjica"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 286,
+            "name": "Super Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/286.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 2653,
+                "name": "Javor",
+                "logo": "https://media.api-sports.io/football/teams/2653.png",
+                "winner": null
+            },
+            "away": {
+                "id": 14261,
+                "name": "Mladost Novi Sad",
+                "logo": "https://media.api-sports.io/football/teams/14261.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876954,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1424,
+                "name": "Stadion Partizana",
+                "city": "Beograd"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 286,
+            "name": "Super Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/286.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 573,
+                "name": "FK Partizan",
+                "logo": "https://media.api-sports.io/football/teams/573.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2655,
+                "name": "Napredak",
+                "logo": "https://media.api-sports.io/football/teams/2655.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 876955,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 18679,
+                "name": "TSC Arena",
+                "city": "Bačka Topola"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 286,
+            "name": "Super Liga",
+            "country": "Serbia",
+            "logo": "https://media.api-sports.io/football/leagues/286.png",
+            "flag": "https://media.api-sports.io/flags/rs.svg",
+            "season": 2022,
+            "round": "Regular Season - 5"
+        },
+        "teams": {
+            "home": {
+                "id": 2646,
+                "name": "TSC Backa Topola",
+                "logo": "https://media.api-sports.io/football/teams/2646.png",
+                "winner": null
+            },
+            "away": {
+                "id": 2643,
+                "name": "Novi Pazar",
+                "logo": "https://media.api-sports.io/football/teams/2643.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 880600,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": "Bishop Reding Secondary School Stadium",
+                "city": "Milton, Ontario"
+            },
+            "status": {
+                "long": "Not Started",
+                "short": "NS",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 923,
+            "name": "League 1 Ontario",
+            "country": "Canada",
+            "logo": "https://media.api-sports.io/football/leagues/923.png",
+            "flag": "https://media.api-sports.io/flags/ca.svg",
+            "season": 2022,
+            "round": "Regular Season - 21"
+        },
+        "teams": {
+            "home": {
+                "id": 19108,
+                "name": "Scrosoppi",
+                "logo": "https://media.api-sports.io/football/teams/19108.png",
+                "winner": null
+            },
+            "away": {
+                "id": 19100,
+                "name": "Darby",
+                "logo": "https://media.api-sports.io/football/teams/19100.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 881339,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 236,
+            "name": "First League",
+            "country": "Russia",
+            "logo": "https://media.api-sports.io/football/leagues/236.png",
+            "flag": "https://media.api-sports.io/flags/ru.svg",
+            "season": 2022,
+            "round": "Regular Season - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 6786,
+                "name": "Akron",
+                "logo": "https://media.api-sports.io/football/teams/6786.png",
+                "winner": null
+            },
+            "away": {
+                "id": 1087,
+                "name": "Ska-khabarovsk",
+                "logo": "https://media.api-sports.io/football/teams/1087.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 881343,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "city": null
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 236,
+            "name": "First League",
+            "country": "Russia",
+            "logo": "https://media.api-sports.io/football/leagues/236.png",
+            "flag": "https://media.api-sports.io/flags/ru.svg",
+            "season": 2022,
+            "round": "Regular Season - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 1089,
+                "name": "Enisey",
+                "logo": "https://media.api-sports.io/football/teams/1089.png",
+                "winner": null
+            },
+            "away": {
+                "id": 6833,
+                "name": "Veles",
+                "logo": "https://media.api-sports.io/football/teams/6833.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 882624,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 290,
+                "name": "Stadion Ivailo",
+                "city": "Veliko Târnovo"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 173,
+            "name": "Second League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/173.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 855,
+                "name": "Etar Veliko Tarnovo",
+                "logo": "https://media.api-sports.io/football/teams/855.png",
+                "winner": null
+            },
+            "away": {
+                "id": 1423,
+                "name": "Maritsa Plovdiv",
+                "logo": "https://media.api-sports.io/football/teams/1423.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 882625,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 2666,
+                "name": "Gradski stadion",
+                "city": "Sozopol"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 173,
+            "name": "Second League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/173.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 1412,
+                "name": "Sozopol",
+                "logo": "https://media.api-sports.io/football/teams/1412.png",
+                "winner": null
+            },
+            "away": {
+                "id": 683,
+                "name": "Dunav Ruse",
+                "logo": "https://media.api-sports.io/football/teams/683.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 882626,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 6084,
+                "name": "Stadion Hristo Botev",
+                "city": "Gabrovo"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 173,
+            "name": "Second League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/173.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 8528,
+                "name": "Yantra 2019",
+                "logo": "https://media.api-sports.io/football/teams/8528.png",
+                "winner": null
+            },
+            "away": {
+                "id": 1419,
+                "name": "Litex",
+                "logo": "https://media.api-sports.io/football/teams/1419.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 882627,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 1847,
+                "name": "Sporten tsentar Ludogorets",
+                "city": "Razgrad"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 173,
+            "name": "Second League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/173.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 1409,
+                "name": "Ludogorets II",
+                "logo": "https://media.api-sports.io/football/teams/1409.png",
+                "winner": null
+            },
+            "away": {
+                "id": 1418,
+                "name": "Spartak Pleven",
+                "logo": "https://media.api-sports.io/football/teams/1418.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    },
+    {
+        "fixture": {
+            "id": 882628,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2022-08-06T00:00:00+00:00",
+            "timestamp": 1659744000,
+            "periods": {
+                "first": null,
+                "second": null
+            },
+            "venue": {
+                "id": 289,
+                "name": "Stadion Druzhba",
+                "city": "Dobrich"
+            },
+            "status": {
+                "long": "Time to be defined",
+                "short": "TBD",
+                "elapsed": null
+            }
+        },
+        "league": {
+            "id": 173,
+            "name": "Second League",
+            "country": "Bulgaria",
+            "logo": "https://media.api-sports.io/football/leagues/173.png",
+            "flag": "https://media.api-sports.io/flags/bg.svg",
+            "season": 2022,
+            "round": "Regular Season - 4"
+        },
+        "teams": {
+            "home": {
+                "id": 1427,
+                "name": "Dobrudzha",
+                "logo": "https://media.api-sports.io/football/teams/1427.png",
+                "winner": null
+            },
+            "away": {
+                "id": 1421,
+                "name": "Strumska Slava",
+                "logo": "https://media.api-sports.io/football/teams/1421.png",
+                "winner": null
+            }
+        },
+        "goals": {
+            "home": null,
+            "away": null
+        },
+        "score": {
+            "halftime": {
+                "home": null,
+                "away": null
+            },
+            "fulltime": {
+                "home": null,
+                "away": null
+            },
+            "extratime": {
+                "home": null,
+                "away": null
+            },
+            "penalty": {
+                "home": null,
+                "away": null
+            }
+        }
+    }
+]

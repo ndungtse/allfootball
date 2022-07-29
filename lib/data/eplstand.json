@@ -1,0 +1,916 @@
+[
+    {
+        "league": {
+            "id": 39,
+            "name": "Premier League",
+            "country": "England",
+            "logo": "https://media.api-sports.io/football/leagues/39.png",
+            "flag": "https://media.api-sports.io/flags/gb.svg",
+            "season": 2022,
+            "standings": [
+                [
+                    {
+                        "rank": 1,
+                        "team": {
+                            "id": 42,
+                            "name": "Arsenal",
+                            "logo": "https://media.api-sports.io/football/teams/42.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": "Promotion - Champions League (Group Stage)",
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 2,
+                        "team": {
+                            "id": 66,
+                            "name": "Aston Villa",
+                            "logo": "https://media.api-sports.io/football/teams/66.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": "Promotion - Champions League (Group Stage)",
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 3,
+                        "team": {
+                            "id": 35,
+                            "name": "Bournemouth",
+                            "logo": "https://media.api-sports.io/football/teams/35.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": null,
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 4,
+                        "team": {
+                            "id": 55,
+                            "name": "Brentford",
+                            "logo": "https://media.api-sports.io/football/teams/55.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": "Relegation - Championship",
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 5,
+                        "team": {
+                            "id": 51,
+                            "name": "Brighton",
+                            "logo": "https://media.api-sports.io/football/teams/51.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": null,
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 6,
+                        "team": {
+                            "id": 49,
+                            "name": "Chelsea",
+                            "logo": "https://media.api-sports.io/football/teams/49.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": "Promotion - Champions League (Group Stage)",
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 7,
+                        "team": {
+                            "id": 52,
+                            "name": "Crystal Palace",
+                            "logo": "https://media.api-sports.io/football/teams/52.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": null,
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 8,
+                        "team": {
+                            "id": 45,
+                            "name": "Everton",
+                            "logo": "https://media.api-sports.io/football/teams/45.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": "Promotion - Champions League (Group Stage)",
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 9,
+                        "team": {
+                            "id": 36,
+                            "name": "Fulham",
+                            "logo": "https://media.api-sports.io/football/teams/36.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": "Promotion - Europa League (Group Stage)",
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 10,
+                        "team": {
+                            "id": 63,
+                            "name": "Leeds",
+                            "logo": "https://media.api-sports.io/football/teams/63.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": "Relegation - Championship",
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 11,
+                        "team": {
+                            "id": 46,
+                            "name": "Leicester",
+                            "logo": "https://media.api-sports.io/football/teams/46.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": null,
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 12,
+                        "team": {
+                            "id": 40,
+                            "name": "Liverpool",
+                            "logo": "https://media.api-sports.io/football/teams/40.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": null,
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 13,
+                        "team": {
+                            "id": 50,
+                            "name": "Manchester City",
+                            "logo": "https://media.api-sports.io/football/teams/50.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": null,
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 14,
+                        "team": {
+                            "id": 33,
+                            "name": "Manchester United",
+                            "logo": "https://media.api-sports.io/football/teams/33.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": null,
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 15,
+                        "team": {
+                            "id": 34,
+                            "name": "Newcastle",
+                            "logo": "https://media.api-sports.io/football/teams/34.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": null,
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 16,
+                        "team": {
+                            "id": 65,
+                            "name": "Nottingham Forest",
+                            "logo": "https://media.api-sports.io/football/teams/65.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": "Relegation - Championship",
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 17,
+                        "team": {
+                            "id": 41,
+                            "name": "Southampton",
+                            "logo": "https://media.api-sports.io/football/teams/41.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": null,
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 18,
+                        "team": {
+                            "id": 47,
+                            "name": "Tottenham",
+                            "logo": "https://media.api-sports.io/football/teams/47.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": null,
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 19,
+                        "team": {
+                            "id": 48,
+                            "name": "West Ham",
+                            "logo": "https://media.api-sports.io/football/teams/48.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": null,
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    },
+                    {
+                        "rank": 20,
+                        "team": {
+                            "id": 39,
+                            "name": "Wolves",
+                            "logo": "https://media.api-sports.io/football/teams/39.png"
+                        },
+                        "points": 0,
+                        "goalsDiff": 0,
+                        "group": "Premier League",
+                        "form": null,
+                        "status": "same",
+                        "description": null,
+                        "all": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "home": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "away": {
+                            "played": 0,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 0,
+                            "goals": {
+                                "for": 0,
+                                "against": 0
+                            }
+                        },
+                        "update": "2022-06-23T00:00:00+00:00"
+                    }
+                ]
+            ]
+        }
+    }
+]
