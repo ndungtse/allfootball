@@ -2,15 +2,15 @@ import React from 'react'
 import NavBar from '../../components/constants/NavBar'
 import SideBar from '../../components/constants/SideBar'
 
-const Players = () => {
+const Matches = () => {
   return (
     <div className='flex flex-col w-full h-screen overflow-hidden'>
         <NavBar />
         <div className="flex">
-            <SideBar active='players' />
+            <SideBar active='matches' />
         </div>
     </div>
   )
 }
 
-export default Players
+export default Matches

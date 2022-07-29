@@ -19,21 +19,21 @@ const appDefaultValues = {
 const themes = {
     light: {
         text: 'text-black',
-        bg: 'from-slate-200 via-slate-200 to-white',
-        bg1: 'from-white via-white to-slate-100',
+        bg: 'bg-black',
+        bg1: 'bg-orange-600',
         textAlt: 'text-white',
-        nav: 'bg-slate-50 text-black',
-        bgAlt: 'bg-slate-200',
-        bgAlt1: 'bg-white',
+        textAlt1: 'text-orange-600',
+        color: '#ff850b',
+        color1: 'orange-600'
     },
     dark: {
         text: 'text-white',
-        bg: 'from-slate-800 via-slate-800 to-slate-800',
-        bg1: 'from-slate-800 via-slate-800 to-slate-800',
-        textAlt: 'text-white',
-        nav: 'bg-stone-800 text-white',
-        bgAlt: 'bg-stone-800',
-        bgAlt1: 'bg-black',
+        bg: 'bg-black',
+        bg1: 'bg-orange-600',
+        textAlt: 'text-black',
+        textAlt1: 'text-orange-600',
+        color: '#ff850b',
+        color1: 'orange-600',
     }
 }
 

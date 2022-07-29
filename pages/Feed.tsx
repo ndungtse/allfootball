@@ -7,7 +7,7 @@ const Feed = () => {
     <div className='flex flex-col w-full h-screen overflow-hidden'>
         <NavBar/>
         <div className="flex">
-            <SideBar />
+            <SideBar active='home' />
         </div>
     </div>
   )
