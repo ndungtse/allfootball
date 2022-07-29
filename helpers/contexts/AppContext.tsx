@@ -24,7 +24,7 @@ const themes = {
         bgAlt: 'bg-slate-100',
         textAlt: 'text-white',
         textAlt1: 'text-orange-600',
-        color: '#ff850b',
+        color: '#ea580c',
         color1: 'orange-600'
     },
     dark: {
@@ -34,7 +34,7 @@ const themes = {
         bgAlt: 'bg-slate-100',
         textAlt: 'text-black',
         textAlt1: 'text-orange-600',
-        color: '#ff850b',
+        color: '#ea580c',
         color1: 'orange-600',
     }
 }

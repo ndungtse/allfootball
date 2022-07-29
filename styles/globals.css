@@ -4,3 +4,18 @@
 *{
     font-family: 'Roboto';
 }
+
+.bg-orange-600 {
+    background-color: #ea580c;
+}
+.border-orange-600 {
+    border-color: rgb(234 88 12);
+}
+.conc{
+    word-wrap: none;
+    word-break: keep-all;
+}
+.hslider::-webkit-scrollbar{
+  background: transparent;
+  display: none;
+}
