@@ -1,15 +1,23 @@
 import Link from 'next/link'
 import React from 'react'
-import { BiFootball, BiHome } from 'react-icons/bi'
+import { BiArrowBack, BiFootball, BiHome, BiMenu } from 'react-icons/bi'
 import { FiHome } from 'react-icons/fi'
 import { FaPeopleCarry, FaRegPlayCircle, FaTeamspeak, FaTrophy, FaTshirt, FaUsers } from 'react-icons/fa'
 import { useApp } from '../../helpers/contexts/AppContext';
 
 const SideBar = ({active}: any) => {
-  const { themeClass } = useApp();
+  const { themeClass, mobile, setMobile } = useApp();
 
   return (
-    <div className='flex flex-col border-r-2 h-screen'>
+    <>
+      {mobile?(
+        <BiMenu onClick={()=> setMobile(false)} className="tablet:hidden z-10 absolute top-[8vh] cursor-pointer left-1" />
+        ):(
+        <BiArrowBack onClick={()=> setMobile(true)} className="tablet:hidden z-10 absolute top-[8vh] cursor-pointer left-1" />
+        )}
+    <div className={`flex flex-col z-[5] duration-500 ${mobile? 'left-[-500px]':'left-0'}
+    ${themeClass.bg} border-r-2 tablet:h-full h-[91.65vh] absolute tablet:static`}>
+        
         <div className="flex flex-col mt-4">
           <Link href={`/`}>
             <div className={`flex cursor-pointer mt-2 font-semibold items-center border-l-2 
@@ -48,6 +56,7 @@ const SideBar = ({active}: any) => {
           </Link>
         </div>
     </div>
+    </>
   )
 }
 

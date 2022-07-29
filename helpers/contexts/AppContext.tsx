@@ -5,7 +5,7 @@ interface appContextType {
     setIsDark: (isDark: boolean) => void,
     themeClass: any;
     mobile: boolean;
-    setMobile: (isDark: boolean) => void;
+    setMobile: (mobile: boolean) => void;
 }
 
 const appDefaultValues = {

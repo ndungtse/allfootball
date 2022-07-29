@@ -25,7 +25,7 @@ const Feed = () => {
                 </div>
                 <div className="absolute px-3 text-white justify-center top-0 left-0 w-full flex flex-col bg-black/50 h-full">
                   <p className="text-lg font-semibold opacity-80">UCL</p>
-                  <div className="flex text-4xl flex-wrap">
+                  <div className="flex xs:text-4xl flex-wrap">
                     <p className=" mt-2 font-semibold">CHELSEA</p>
                     <p className=" mt-2 font-semibold mx-2">1-0</p>
                     <p className=" mt-2 font-semibold">MAN CITY</p>
