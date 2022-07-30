@@ -27,11 +27,11 @@ const Matches = () => {
         <NavBar />
         <div className="flex">
             <SideBar active='matches' />
-            <div className={`flex ${themeClass.bgAlt} flex-col px-3 pt-1 w-full h-[92vh] overflow-y-auto`}>
+            <div className={`flex ${themeClass.bgAlt} flex-col px-3 w-full h-[92vh] overflow-y-auto`}>
               <div className={`flex flex-col w-full ${themeClass.bg}`}>
                 <LeagueSlider setLeague={setLeague} handleLeagueFix={handleLeagueFix} />
-                <div className="h-screen w-full px-3">
-                  <div className="h-screen w-full border-l-2">
+                <div className="flex flex-col h-fl w-full px-3">
+                  <div className=" w-full border-l-2">
                     <div className='flex flex-col items-center'>
                       <p>Date</p>
                       <DateSlider />
