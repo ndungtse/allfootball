@@ -3,6 +3,7 @@
 @tailwind utilities;
 *{
     font-family: 'Roboto';
+    scroll-behavior: smooth;
 }
 
 .bg-orange-600 {
@@ -18,4 +19,11 @@
 .hslider::-webkit-scrollbar{
   background: transparent;
   display: none;
+}
+.bg-slate-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+.bg-white{
+    background-color: white;
 }

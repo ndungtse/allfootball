@@ -19,7 +19,7 @@ const Match = ({fix}: any) => {
           <p className="font-semibold">{home.name}</p>
         </div>
         <div className="flex mx-3 flex-col items-center">
-          <img src={logo} alt={name} />
+          <img className='w-[50px] h-[50px] rounded-full' src={logo} alt={name} />
           <p>{date.split("T")[0]}</p>
           <p>{date.split("T")[1].split(":")[0]+":"+date.split("T")[1].split(":")[1]}</p>
         </div>
