@@ -9,16 +9,14 @@ import { useApp } from '../helpers/contexts/AppContext'
 import eplfix from '../lib/data/eplfix.json'
 
 const Feed = () => {
-  const { themeClass } = useApp()
-
-  console.log(eplfix)
+  const { themeClass, setMobile } = useApp()
 
   return (
     <div className='flex flex-col w-full h-screen overflow-hidden'>
         <NavBar/>
         <div className="flex">
             <SideBar active='home' />
-            <div className={`flex ${themeClass.bgAlt} flex-col px-3 pt-1 w-full h-[92vh] overflow-y-auto`}>
+            <div onClick={()=> setMobile(false)} className={`flex ${themeClass.bgAlt} ${themeClass.text} flex-col px-3 pt-1 w-full h-[92vh] overflow-y-auto`}>
               <div className="relative w-full h-[30vh] flex items-center">
                 <div className='flex items-center overflow-hidden h-full w-full'>
                   <Image src="/uclchamp.jpg" alt="" height={1080} width={1920} />
@@ -42,7 +40,7 @@ const Feed = () => {
               <div className="flex flex-col">
                 <h1 className='font-bold text-lg mt-3 ml-3'>Premier Legue</h1>
                 <div className={`flex flex-col ${themeClass.bg} rounded-lg`}>
-                  <div className={`flex flex-wrap p-3 pt-0`}>
+                <div className={`grid ltab:grid-cols-2 xtab:grid-cols-3 p-3 pt-0`}>
                     {eplfix.map((fix: any, index)=>(
                       <Match key={index} fix={fix} />
                     ))}
@@ -53,7 +51,7 @@ const Feed = () => {
               <div className="flex flex-col">
                 <h1 className='font-bold text-lg mt-3 ml-3'>La liga</h1>
                 <div className={`flex flex-col ${themeClass.bg} rounded-lg`}>
-                  <div className={`grid grid-cols-3 p-3 pt-0`}>
+                <div className={`grid ltab:grid-cols-2 xtab:grid-cols-3 p-3 pt-0`}>
                     {eplfix.map((fix: any, index)=>(
                       <Match key={index} fix={fix} />
                     ))}

@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
+import { BiChevronRight } from 'react-icons/bi'
+import Footer from '../../components/constants/Footer'
 import NavBar from '../../components/constants/NavBar'
 import SideBar from '../../components/constants/SideBar'
 import Match from '../../components/feed/Match'
@@ -9,7 +11,7 @@ import { useApp } from '../../helpers/contexts/AppContext'
 import fixtures from '../../lib/data/fixtures.json'
 
 const Matches = () => {
-  const { themeClass } = useApp();
+  const { themeClass, setMobile } = useApp();
   const [league, setLeague] = useState('all leagues');
   const [leagueFix, setLeagueFix] = useState<any>(fixtures)
 
@@ -27,10 +29,10 @@ const Matches = () => {
         <NavBar />
         <div className="flex">
             <SideBar active='matches' />
-            <div className={`flex ${themeClass.bgAlt} flex-col px-3 w-full h-[92vh] overflow-y-auto`}>
-              <div className={`flex flex-col w-full ${themeClass.bg}`}>
+            <div onClick={()=> setMobile(false)} className={`flex ${themeClass.bgAlt} ${themeClass.text} flex-col px-3 w-full h-[92vh] overflow-y-auto`}>
+              <div className={`flex flex-col min-h-[92vh] w-full ${themeClass.bg}`}>
                 <LeagueSlider setLeague={setLeague} handleLeagueFix={handleLeagueFix} />
-                <div className="flex flex-col h-fl w-full px-3">
+                <div className="flex flex-col h-full justify-between w-full px-3">
                   <div className=" w-full border-l-2">
                     <div className='flex flex-col items-center'>
                       <p>Date</p>
@@ -40,7 +42,7 @@ const Matches = () => {
                       <h1 className='font-bold text-lg mt-3 ml-3'>{league}</h1>
                       {leagueFix.length===0 && <p className=' mt-3 ml-3'>No matche on this date</p>}
                       <div className={`flex flex-col ${themeClass.bg} rounded-lg`}>
-                        <div className={`grid grid-cols-3 p-3 pt-0`}>
+                        <div className={`grid ltab:grid-cols-2 xtab:grid-cols-3 p-3 pt-0`}>
                           {leagueFix.map((fix: any, index: any)=>(
                             <Match key={index} fix={fix} />
                           ))}
@@ -49,6 +51,7 @@ const Matches = () => {
                       </div>
                     </div>
                   </div>
+                  <Footer />
                 </div>
               </div>  
             </div>

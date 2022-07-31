@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useApp } from '../../helpers/contexts/AppContext';
-import NavSlider from '../../helpers/NavSlider';
+import NavSlider from '../constants/NavSlider';
 import leagues from '../../lib/data/leagues.json'
 
 type Props = {

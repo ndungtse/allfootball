@@ -1,5 +1,5 @@
 import React from 'react'
-import NavSlider from '../../helpers/NavSlider'
+import NavSlider from '../constants/NavSlider'
 
 const DateSlider = () => {
   return (

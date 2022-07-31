@@ -9,11 +9,11 @@ const NavBar = () => {
     const { themeClass } = useApp();
 
   return (
-    <div className='flex w-full items-center justify-between py-3 px-4 border-b-2'>
+    <div className={`flex w-full ${themeClass.bg} items-center justify-between py-3 px-4 border-b-2`}>
         <div className='phone:scale-100 scale-75 flex items-center' >
             <Link href='/'>
                 <>
-                <Image className='cursor-pointer' src="/vercel.svg" alt="" width={100} height={26}/>
+                <Image className='cursor-pointer bg-white' src="/vercel.svg" alt="" width={100} height={26}/>
                 </>
             </Link>
         </div>

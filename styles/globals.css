@@ -1,8 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 *{
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'Noto Sans', 'Cascadia Code';
     scroll-behavior: smooth;
 }
 
@@ -24,6 +26,15 @@
     --tw-bg-opacity: 1;
     background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
+.bg-slate-900{
+    background-color: rgb(4, 9, 33);
+}
 .bg-white{
     background-color: white;
+}
+.bg-black{
+    background-color: black;
+}
+.left-zero{
+    left: 0!important;
 }

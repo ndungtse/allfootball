@@ -2,13 +2,8 @@ import React from 'react'
 import { BiFootball } from 'react-icons/bi'
 
 const Match = ({fix}: any) => {
-  console.log(fix);
   const { fixture: { date , venue, status}, goals, league: { name, logo}, 
   score, teams: { home, away } } = fix
-  // const d: Date = fix.fixture.date.toLocaleString();
-  console.log(home);
-  
-  // d.
   
   return (
     <div className='flex flex-col pb-3 mt-3 px-3 mx-3 items-center border-b-2'>
