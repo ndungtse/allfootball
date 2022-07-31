@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 			<AppProvider>
 				<Head>
 					<title>Football</title>
-					<link rel="icon" href="/favicon.ico" />
+					<link rel="icon" href="/SVG/logo.svg" />
 				</Head>
 				<Component {...pageProps} />
 			</AppProvider>
