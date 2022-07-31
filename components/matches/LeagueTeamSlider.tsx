@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useApp } from '../../helpers/contexts/AppContext';
+import { useApp } from '../constants/contexts/AppContext';
 import NavSlider from '../constants/NavSlider';
 import leagues from '../../lib/data/leagues.json'
 

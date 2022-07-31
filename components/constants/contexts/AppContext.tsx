@@ -29,10 +29,10 @@ const themes = {
         color1: 'orange-600'
     },
     dark: {
-        text: 'text-white',
-        bg: 'bg-black',
+        text: 'text-slate-100',
+        bg: 'bg-[#040921]',
         bg1: 'bg-orange-600',
-        bgAlt: 'bg-slate-900',
+        bgAlt: 'bg-black',
         textAlt: 'text-black',
         textAlt1: 'text-orange-600',
         textc: '#fff',
@@ -46,13 +46,14 @@ const AppContext = createContext<appContextType>(appDefaultValues);
 export const useApp = ()=> useContext(AppContext);
 
 export const AppProvider = ({ children }: { children: React.ReactNode }) => {
-    const [isDark, setIsDark] = useState(false);
+    const [isDark, setIsDark] = useState<any>('');
     const [mobile, setMobile] = useState(false) 
     const [themeClass, setThemeClass] = useState(themes.light)
 
 
     const saveTheme = () => {
         setThemeClass(isDark?themes.dark:themes.light)
+        console.log('sav', isDark);
         if (isDark) {
             localStorage.setItem('theme', "dark");
         }else{
@@ -66,27 +67,27 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
         
         if (localIsDark) {
             if (localIsDark === "dark") {
-                console.log("darke");
-                
+                console.log('darke');
                 setIsDark(true);
                 setThemeClass(themes.dark);
             }else{
-                console.log("lighte");
+                console.log('ligthe');
                 setIsDark(false);
                 setThemeClass(themes.light); 
             }
         }
     }
-
-    // useEffect(() => {
-    //     saveTheme();
-    //     setThemeClass(isDark?themes.dark:themes.light)
-    // }, [isDark]);
     
     useEffect(() => {
         getSavedTheme();
     }, []);
 
+    useEffect(() => {
+        if (isDark!=='') {
+            saveTheme();
+        }
+    }, [isDark]);
+    
     return (
         <AppContext.Provider value={{ isDark, setIsDark, themeClass, mobile, setMobile }}>
             {children}

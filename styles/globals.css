@@ -6,6 +6,7 @@
 *{
     font-family: 'Roboto', 'Noto Sans', 'Cascadia Code';
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 .bg-orange-600 {
@@ -27,7 +28,7 @@
     background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 .bg-slate-900{
-    background-color: rgb(4, 9, 33);
+    background-color: #040921;
 }
 .bg-white{
     background-color: white;

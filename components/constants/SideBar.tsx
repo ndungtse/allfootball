@@ -3,7 +3,7 @@ import React from 'react'
 import { BiArrowBack, BiFootball, BiHome, BiMenu } from 'react-icons/bi'
 import { FiHome } from 'react-icons/fi'
 import { FaPeopleCarry, FaRegPlayCircle, FaTeamspeak, FaTrophy, FaTshirt, FaUsers } from 'react-icons/fa'
-import { useApp } from '../../helpers/contexts/AppContext';
+import { useApp } from './contexts/AppContext';
 
 const SideBar = ({active}: any) => {
   const { themeClass, mobile, setMobile } = useApp();

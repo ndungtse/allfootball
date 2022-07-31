@@ -7,7 +7,7 @@ import SideBar from '../../components/constants/SideBar'
 import Match from '../../components/feed/Match'
 import DateSlider from '../../components/matches/DateSlider'
 import LeagueSlider from '../../components/matches/leagueSlider'
-import { useApp } from '../../helpers/contexts/AppContext'
+import { useApp } from '../../components/constants/contexts/AppContext'
 import fixtures from '../../lib/data/fixtures.json'
 
 const Matches = () => {
@@ -33,7 +33,7 @@ const Matches = () => {
               <div className={`flex flex-col min-h-[92vh] w-full ${themeClass.bg}`}>
                 <LeagueSlider setLeague={setLeague} handleLeagueFix={handleLeagueFix} />
                 <div className="flex flex-col h-full justify-between w-full px-3">
-                  <div className=" w-full border-l-2">
+                  <div className=" w-full border-x-2 border-b-2">
                     <div className='flex flex-col items-center'>
                       <p>Date</p>
                       <DateSlider />

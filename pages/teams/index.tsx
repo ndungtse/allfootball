@@ -5,7 +5,7 @@ import Footer from '../../components/constants/Footer';
 import NavBar from '../../components/constants/NavBar'
 import SideBar from '../../components/constants/SideBar'
 import LeagueTeamSlider from '../../components/matches/LeagueTeamSlider';
-import { useApp } from '../../helpers/contexts/AppContext';
+import { useApp } from '../../components/constants/contexts/AppContext';
 
 const Teams = () => {
   const { themeClass, setMobile } = useApp();
@@ -28,11 +28,11 @@ const Teams = () => {
               throw new Error('Function not implemented.');
             } } /> 
                 <div className="flex flex-col h-fl w-full px-3">
-                  <div className=" w-full border-l-2">
+                  <div className=" w-full border-x-2 border-b-2">
                     <h1 className='my-3 w-full flex ml-3'>Teams currently in&nbsp;<p className='font-semibold'>{ league }</p></h1>
                     <div className={`grid desktop:grid-cols-4 xtab:grid-cols-3 phone:grid-cols-2 gap-3 p-3 pt-0`}>
                       {leagueTeams.map((team: any, i: any)=> (
-                        <Link href={`teams/`} key={i}>
+                        <Link href={`/`} key={i}>
                           <div className={`flex border-2 flex-col
                            items-center cursor-pointer`}>
                             <BiFootball className='text-[4em]' />

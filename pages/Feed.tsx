@@ -5,7 +5,7 @@ import Footer from '../components/constants/Footer'
 import NavBar from '../components/constants/NavBar'
 import SideBar from '../components/constants/SideBar'
 import Match from '../components/feed/Match'
-import { useApp } from '../helpers/contexts/AppContext'
+import { useApp } from '../components/constants/contexts/AppContext'
 import eplfix from '../lib/data/eplfix.json'
 
 const Feed = () => {
