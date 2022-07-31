@@ -18,7 +18,7 @@ const Leagues = () => {
   }
 
   return (
-    <div className='flex flex-col w-full h-screen overflow-hidden'>
+    <div className={`flex ${themeClass.bg} flex-col w-full h-screen overflow-hidden`}>
         <NavBar />
         <div className="flex">
             <SideBar active='leagues' />

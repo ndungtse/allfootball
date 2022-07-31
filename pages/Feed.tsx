@@ -12,7 +12,7 @@ const Feed = () => {
   const { themeClass, setMobile } = useApp()
 
   return (
-    <div className='flex flex-col w-full h-screen overflow-hidden'>
+    <div className={`flex flex-col ${themeClass.bg} w-full h-screen overflow-hidden`}>
         <NavBar/>
         <div className="flex">
             <SideBar active='home' />

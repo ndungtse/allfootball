@@ -23,7 +23,7 @@ const LeagueTeamSlider: React.FC<Props> = ({ setLeague, handleLeagueTeams }) => 
         <div className="flex items-center">
             {leagues.map((league: any)=>(
             <div key={league.league.id} onClick={()=>handleLeagueChange(league.league)}
-             className={`flex ${active===league.league.id?'border-x-2 border-t-2':'border-b-2'} cursor-pointer py-2 px-3 items-center`}>
+             className={`flex ${active===league.league.id?'border-x-2 border-t-2':'border-b-2'} cursor-pointer py-2 px-3 items-center ${themeClass.border}`}>
                 <p className='font-semibold conc w-full'>{league.league.name.split(' ').map((w: string, i: any)=> <span key={i}>{w}&nbsp;</span>)}</p>
             </div>
             ))}

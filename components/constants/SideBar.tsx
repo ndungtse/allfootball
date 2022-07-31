@@ -16,7 +16,7 @@ const SideBar = ({active}: any) => {
          <BiArrowBack onClick={()=> setMobile(true)} className="tablet:hidden z-20 absolute top-[8vh] cursor-pointer left-1" />
          )} */}
     <div className={`flex flex-col z-[15] left-[-500px] duration-500 ${mobile? 'left-zero':''}
-    ${themeClass.bg} ${themeClass.border} border-r-2 tablet:h-full h-[91.65vh] absolute tablet:static mobile`}>
+    ${themeClass.bg} ${themeClass.border} border-r-2 tablet:h-full h-[91.75vh] absolute tablet:static mobile`}>
         
         <div className="flex flex-col mt-4">
           <Link href={`/`}>
