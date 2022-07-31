@@ -26,15 +26,17 @@ const themes = {
         textAlt1: 'text-orange-600',
         color: '#ea580c',
         textc: '#000',
+        border: 'border-[#e5e7eb]',
         color1: 'orange-600'
     },
     dark: {
         text: 'text-slate-100',
         bg: 'bg-[#040921]',
         bg1: 'bg-orange-600',
-        bgAlt: 'bg-black',
+        bgAlt: 'bg-[#040921]',
         textAlt: 'text-black',
         textAlt1: 'text-orange-600',
+        border: 'border-[#212f4b]',
         textc: '#fff',
         color: '#ea580c',
         color1: 'orange-600',

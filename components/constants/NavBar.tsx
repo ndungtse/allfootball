@@ -10,7 +10,7 @@ const NavBar = () => {
     const { themeClass, setIsDark, isDark } = useApp();
 
   return (
-    <div className={`flex w-full ${themeClass.bg} items-center justify-between py-3 px-4 border-b-2`}>
+    <div className={`flex w-full ${themeClass.bg} ${themeClass.border} items-center justify-between py-3 px-4 border-b-2`}>
         <div className='phone:scale-100 scale-75 flex items-center' >
             <Link href='/'>
                 <>

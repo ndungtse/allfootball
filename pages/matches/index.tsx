@@ -33,7 +33,7 @@ const Matches = () => {
               <div className={`flex flex-col min-h-[92vh] w-full ${themeClass.bg}`}>
                 <LeagueSlider setLeague={setLeague} handleLeagueFix={handleLeagueFix} />
                 <div className="flex flex-col h-full justify-between w-full px-3">
-                  <div className=" w-full border-x-2 border-b-2">
+                  <div className={`${themeClass.border} w-full border-x-2 border-b-2`}>
                     <div className='flex flex-col items-center'>
                       <p>Date</p>
                       <DateSlider />

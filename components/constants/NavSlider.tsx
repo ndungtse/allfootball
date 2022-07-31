@@ -51,9 +51,9 @@ const NavSlider = ({ children}:{ children: ReactNode, props?: any}) => {
   return (
         <div className='relative px-3 overflow-hidden w-full' onClick={logRef} >
             {chevAppear.right && <BiChevronRight onClick={handleRightChevClick} 
-            className='absolute text-3xl right-[-0.3em] cursor-pointer top-1 ' />}
+            className='absolute text-3xl right-[-0.3em] cursor-pointer top-1/2 -translate-y-1/2 ' />}
             {chevAppear.left && <BiChevronLeft onClick={handleLeftChevClick}
-          className='absolute text-3xl left-[-0.3em] cursor-pointer top-1 ' />}
+          className='absolute text-3xl left-[-0.3em] cursor-pointer top-1/2 -translate-y-1/2 ' />}
             <div ref={sliderRef} onScroll={handleSliderScroll} 
                 className='w-full relative flex overflow-x-auto hslider'>
                 {children}
