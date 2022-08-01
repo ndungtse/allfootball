@@ -15,7 +15,7 @@ const NavBar = () => {
         <div className='phone:scale-100 scale-75 flex items-center' >
             <Link href='/'>
                 <>
-                <Image className='cursor-pointe' src="/logo.png" alt="" width={80} height={26}/>
+                <Image className='cursor-pointer' src="/logo.png" alt="" width={80} height={26}/>
                 </>
             </Link>
         </div>
