@@ -47,7 +47,7 @@ const Matches = () => {
                       <div className={`flex flex-col ${themeClass.bg} rounded-lg`}>
                         <div className={`grid ltab:grid-cols-2 xtab:grid-cols-3 p-3 pt-0`}>
                           {leagueFix.map((fix: any, index: any)=>(
-                            <Match key={index} fix={fix} />
+                            <Match key={index} fix={fix} setLinear={setLinear} />
                           ))}
                         </div>
                         <Link href='matches'><p className='text-orange-600 mx-3 cursor-pointer hover:underline mb-2'>See All Matches</p></Link> 

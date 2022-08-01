@@ -36,7 +36,7 @@ const Teams = () => {
                     <div className={`grid desktop:grid-cols-4 xtab:grid-cols-3 phone:grid-cols-2 gap-3 p-3 pt-0`}>
                       {leagueTeams.map((team: any, i: any)=> (
                         <Link href={`teams/${team.team.id}`} key={i}>
-                          <div className={`flex border-2 flex-col
+                          <div onClick={()=> setLinear(true)} className={`flex border-2 flex-col
                            items-center cursor-pointer ${themeClass.border}`}>
                             <BiFootball className='text-[4em]' />
                             <p className='text-center'>Name: {team.team.name} </p>
