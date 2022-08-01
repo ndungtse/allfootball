@@ -4,20 +4,25 @@ import { LinearProgress, Stack } from '@mui/material'
 const LinearLoader = () => {
     const [progress, setProgress] = useState<number>(0);
 
-    // useEffect(()=> {
-    //     setInterval(()=>{
-    //         if(progress<95){
-    //             setProgress(progress+0.5)
-    //         }
-    //         if(progress>=95 &&progress<100){
-    //           setProgress(progress+0.001)
-    //         }
-    //     },100)
-    // },[progress])
+    useEffect(()=> {
+      const timer = setInterval(() => {
+        setProgress((oldProgress) => {
+          if (oldProgress === 100) {
+            return 100;
+          }
+          const diff = Math.random() * 10;
+          return Math.min(oldProgress + diff, 100);
+        });
+      }, 500);
+
+      return () => {
+        clearInterval(timer);
+      };
+    },[])
   return (
     <Stack sx={{ width: '100%', color: '#f75802' , position: 'absolute', top: 0}}>
       {/* <LinearProgress color='inherit' variant='determinate'  value={progress}/> */}
-      <LinearProgress color='inherit' variant='indeterminate'  value={progress}/>
+      <LinearProgress color='inherit' variant='determinate'  value={progress}/>
     </Stack>
   )
 }

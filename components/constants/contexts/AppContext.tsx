@@ -27,6 +27,7 @@ const themes = {
         color: '#ea580c',
         textc: '#000',
         border: 'border-[#e5e7eb]',
+        border1: 'border-white',
         color1: 'orange-600'
     },
     dark: {
@@ -37,6 +38,7 @@ const themes = {
         textAlt: 'text-black',
         textAlt1: 'text-orange-600',
         border: 'border-[#212f4b]',
+        border1: 'border-[#040921]',
         textc: '#fff',
         color: '#ea580c',
         color1: 'orange-600',

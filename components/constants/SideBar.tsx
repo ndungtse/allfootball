@@ -30,35 +30,35 @@ const SideBar: React.FC<Props> = ({ active, setLinear }) => {
         
         <div className="flex flex-col mt-4">
           <Link href={`/`}>
-            <div onClick={handleNavigation} className={`flex cursor-pointer mt-2 font-semibold items-center border-l-2 
+            <div onClick={handleNavigation} className={`flex cursor-pointer mt-2 font-semibold items-center border-l-2 ${themeClass.border1}
                 ${active==='home'?`${themeClass.textAlt1} border-${themeClass.color1}`:`${themeClass.text}`} px-4 pr-6 py-1`}>
                 <FiHome fill={active==='home'?themeClass.color:themeClass.textc} stroke={'#ececec'} className='text-xl text-[#ececec]' />
                 <span className={`ml-3 text-md`}>Home</span>
             </div>
           </Link>
           <Link href={`/matches`}>
-            <div onClick={handleNavigation} className={`flex cursor-pointer mt-2 font-semibold items-center border-l-2 
+            <div onClick={handleNavigation} className={`flex cursor-pointer mt-2 font-semibold items-center border-l-2 ${themeClass.border1}
              ${active==='matches'?`${themeClass.textAlt1} border-${themeClass.color1}`:`${themeClass.text}`} px-4 pr-6 py-1`}>
                 <BiFootball fill={active==='matches'?themeClass.color:themeClass.textc} stroke={'#ececec'} className='text-xl text-[#ececec]' />
                 <span className={`ml-3 text-md`}>Matches</span>
             </div>
           </Link>
           <Link href={`/leagues`}>
-            <div onClick={handleNavigation} className={`flex cursor-pointer mt-2 font-semibold items-center border-l-2 
+            <div onClick={handleNavigation} className={`flex cursor-pointer mt-2 font-semibold items-center border-l-2 ${themeClass.border1}
              ${active==='leagues'?`${themeClass.textAlt1} border-${themeClass.color1}`:`${themeClass.text}`} px-4 pr-6 py-1`}>
                 <FaTrophy fill={active==='leagues'?themeClass.color:themeClass.textc} stroke={'#ececec'} className='text-xl text-[#ececec]' />
                 <span className={`ml-3 text-md`}>Leagues</span>
             </div>
           </Link>
           <Link href={`/teams`}>
-            <div onClick={handleNavigation} className={`flex cursor-pointer mt-2 font-semibold items-center border-l-2 
+            <div onClick={handleNavigation} className={`flex cursor-pointer mt-2 font-semibold items-center border-l-2 ${themeClass.border1}
              ${active==='teams'?`${themeClass.textAlt1} border-${themeClass.color1}`:`${themeClass.text}`} px-4 pr-6 py-1`}>
                 <FaUsers fill={active==='teams'?themeClass.color:themeClass.textc} stroke={'#ececec'} className='text-xl text-[#ececec]' />
                 <span className={`ml-3 text-md`}>Teams</span>
             </div>
           </Link>
           <Link href={`/players`}>
-            <div onClick={handleNavigation} className={`flex cursor-pointer mt-2 font-semibold items-center border-l-2 
+            <div onClick={handleNavigation} className={`flex cursor-pointer mt-2 font-semibold items-center border-l-2 ${themeClass.border1}
              ${active==='players'?`${themeClass.textAlt1} border-${themeClass.color1}`:`${themeClass.text}`} px-4 pr-6 py-1`}>
                 <FaTshirt fill={active==='players'?themeClass.color:themeClass.textc} stroke={'#ececec'} className='text-xl text-[#ececec]' />
                 <span className={`ml-3 text-md`}>Players</span>
