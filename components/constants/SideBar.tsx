@@ -21,7 +21,9 @@ const SideBar: React.FC<Props> = ({ active, setLinear }) => {
   return (
     <>
       {/* {mobile?( */}
-        <BiMenu onClick={()=> setMobile(!mobile)} className="tablet:hidden bg-white  z-20 absolute top-[8vh] cursor-pointer left-1" />
+        <BiMenu onClick={()=> setMobile(!mobile)} 
+        className={`tablet:hidden ${themeClass.bg} ${themeClass.text}
+         z-20 absolute top-[8vh] cursor-pointer left-1`} />
           {/* ):(
          <BiArrowBack onClick={()=> setMobile(true)} className="tablet:hidden z-20 absolute top-[8vh] cursor-pointer left-1" />
          )} */}

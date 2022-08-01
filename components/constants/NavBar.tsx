@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
-import { BiMoon, BiSun } from 'react-icons/bi';
+import { BiCaretDown, BiCaretDownSquare, BiChevronDown, BiMoon, BiSun } from 'react-icons/bi';
 import { useSelector } from 'react-redux';
 import { useApp } from './contexts/AppContext';
+import { GiPc } from 'react-icons/gi'
 
 const NavBar = () => {
     const { user } = useSelector((state: any)=> state.user);
@@ -35,11 +36,15 @@ const NavBar = () => {
                         Signup
                     </button>
                 </Link>
-                        {isDark?(
-                        <BiSun onClick={()=> setIsDark(false)} className={`${themeClass.text} text-2xl ml-4 cursor-pointer`} />
-                         ):(
-                            <BiMoon onClick={()=> setIsDark(true)} className={`${themeClass.text} text-2xl ml-4 cursor-pointer`} />
-                         )}
+                    {isDark?(
+                    <BiSun onClick={()=> setIsDark(false)} className={`${themeClass.text} text-2xl ml-4 cursor-pointer`} />
+                     ):(
+                        <BiMoon onClick={()=> setIsDark(true)} className={`${themeClass.text} text-2xl ml-4 cursor-pointer`} />
+                     )}
+                    {/* {isDark==='system'&&(
+                        <GiPc  onClick={()=> setIsDark('system')} className={`${themeClass.text} text-3xl ml-4 cursor-pointer`} />
+                    )}
+                    <BiCaretDown className='mt-3' />  */}
             </div>
         )}
     </div>

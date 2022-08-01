@@ -11,7 +11,7 @@ const TeamInfo = () => {
     }
 
   return (
-    <div className='pt-11 flex flex-col items-center px-2 w-full'>
+    <div className='desktop:pt-11 mt-[7em] xtab:mt-[4em] phone:mt-[6.5em] flex flex-col items-center px-2 w-full'>
         <div className={`flex flex-col items-center z-10 ${themeClass.bg}`}>
           <NavSlider>
             <div onClick={()=>handleContentChange('Player')}

@@ -36,8 +36,8 @@ const Team = () => {
         <SideBar active='teams' setLinear={setLinear} />
         <div onClick={()=> setMobile(false)} className={`flex ${themeClass.bgAlt} ${themeClass.text} flex-col px-3 w-full h-[92vh] overflow-y-auto`}>
           <div className={`flex min-h-full flex-col w-full ${themeClass.bg}`}>
-            <div className=" flex items-center h-[50vh] overflow-hidden">
-              <img src="/cthing.jpg" alt="" />
+            <div className="flex h-[40vh] items-center tablet:h-[50vh] overflow-hidden">
+              <img className='min-w-full min-h-full object-cover' src="/cthing.jpg" alt="" />
             </div>
             <div className="relative">
               <div className={`absolute ${themeClass.bg} left-1/2 ${isDark && ' shadow-gray-800'}
@@ -49,30 +49,30 @@ const Team = () => {
                   </div>
                   <button className="py-1 px-3 bg-orange-600">Like</button>
                 </div>
-                <div className="grid gap-y-8 px-3 tablet:grid-cols-3 w-full">
+                <div className="grid gap-y-8 px-3 text-xs phone:text-base grid-cols-2 tablet:grid-cols-3 w-full">
                   <div className="flex flex-col">
                     <p className='text-slate-300'>COUNTRY</p>
-                    <p className="text-xl">{teamDetails?.team.country.toUpperCase()}</p>
+                    <p className="text-base phone:text-xl">{teamDetails?.team.country.toUpperCase()}</p>
                   </div>
                   <div className="flex flex-col">
                     <p className='text-slate-300'>FOUNDED</p>
-                    <p className="text-xl">{teamDetails?.team.founded}</p>
+                    <p className="text-base phone:text-xl">{teamDetails?.team.founded}</p>
                   </div>
                   <div className="flex flex-col">
                     <p className='text-slate-300'>VENUE</p>
-                    <p className="text-xl">{teamDetails?.venue.name.toUpperCase()}</p>
+                    <p className="text-base phone:text-xl">{teamDetails?.venue.name.toUpperCase()}</p>
                   </div>
                   <div className="flex flex-col">
                     <p className='text-slate-300'>CITY</p>
-                    <p className="text-xl">{teamDetails?.venue.city.toUpperCase()}</p>
+                    <p className="text-base phone:text-xl">{teamDetails?.venue.city.toUpperCase()}</p>
                   </div>
                   <div className="flex flex-col">
                     <p className='text-slate-300'>COUNTRY</p>
-                    <p className="text-xl">ENGLAND</p>
+                    <p className="text-base phone:text-xl">ENGLAND</p>
                   </div>
                   <div className="flex flex-col">
                     <p className='text-slate-300'>COUNTRY</p>
-                    <p className="text-xl">ENGLAND</p>
+                    <p className="text-base phone:text-xl">ENGLAND</p>
                   </div>
                 </div>
               </div>

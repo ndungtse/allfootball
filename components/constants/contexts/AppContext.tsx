@@ -1,8 +1,8 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
 interface appContextType {
-    isDark: boolean,
-    setIsDark: (isDark: boolean) => void,
+    isDark: any,
+    setIsDark: (isDark: any) => void,
     themeClass: any;
     mobile: boolean;
     setMobile: (mobile: boolean) => void;
@@ -50,23 +50,33 @@ const AppContext = createContext<appContextType>(appDefaultValues);
 export const useApp = ()=> useContext(AppContext);
 
 export const AppProvider = ({ children }: { children: React.ReactNode }) => {
+    // const sysTheme = matchMedia('(prefers-color-scheme: dark)').matches
     const [isDark, setIsDark] = useState<any>('');
     const [mobile, setMobile] = useState(false) 
     const [themeClass, setThemeClass] = useState(themes.light)
-
+    // console.log(sysTheme);
+    
 
     const saveTheme = () => {
+        const sysTheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
         setThemeClass(isDark?themes.dark:themes.light)
+        if(isDark==='system') setThemeClass(sysTheme?themes.dark:themes.light)
         console.log('sav', isDark);
         if (isDark) {
             localStorage.setItem('theme', "dark");
-        }else{
+        }else if(isDark==='system'){
+            localStorage.removeItem("theme")
+        }
+        else{
             localStorage.setItem('theme', "light");
         }
     }
 
     const getSavedTheme = () => {
         const localIsDark = localStorage.getItem('theme');
+        const sysTheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        console.log(sysTheme);
+        
         console.log(localIsDark);
         
         if (localIsDark) {
@@ -79,6 +89,8 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
                 setIsDark(false);
                 setThemeClass(themes.light); 
             }
+        }else if(sysTheme){
+            setIsDark(true);
         }
     }
     
