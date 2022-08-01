@@ -22,14 +22,14 @@ const NavBar = () => {
             <div className=""></div>
         ):(
             <div className="flex phone:px-4 items-center phone:scale-100 scale-75">
-                <Link href={`/login`}>
+                <Link href={`user/login`}>
                     <button className={`py-1 text-sm flex items-center justify-center duration-300 border-${themeClass.color1}/90 border-2 text-${themeClass.color1} px-4
                     hover:${themeClass.bg1} hover:${themeClass.textAlt}`}>
                         <p>Login</p>
                     </button>
                 </Link>
                 <p className={`mx-3 ${themeClass.text}`}>OR</p>
-                <Link href={`/signup`}>
+                <Link href={`user/signup`}>
                     <button className={`${themeClass.bg1} py-1 text-sm flex items-center justify-center duration-300 border-${themeClass.color1}/90 border-2 px-4
                     hover:${themeClass.bg1}/90 ${themeClass.text}`}>
                         Signup
