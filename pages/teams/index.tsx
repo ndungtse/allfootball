@@ -6,11 +6,13 @@ import NavBar from '../../components/constants/NavBar'
 import SideBar from '../../components/constants/SideBar'
 import LeagueTeamSlider from '../../components/matches/LeagueTeamSlider';
 import { useApp } from '../../components/constants/contexts/AppContext';
+import LinearLoader from '../../components/constants/LinearProgress';
 
 const Teams = () => {
   const { themeClass, setMobile } = useApp();
   const [league, setLeague] = useState('all leagues');
   const [leagueTeams, setLeagueTeams] = useState([])
+  const [ linear, setLinear ] = useState<boolean>(false)
 
   useEffect(()=>{
     const teams: any = localStorage.getItem('eplteams')
@@ -19,9 +21,10 @@ const Teams = () => {
 
   return (
     <div className={`flex flex-col ${themeClass.bg} w-full h-screen overflow-hidden`}>
+        {linear && <LinearLoader />}
         <NavBar />
         <div className="flex">
-            <SideBar active='teams' />
+            <SideBar active='teams' setLinear={setLinear} />
             <div onClick={()=> setMobile(false)} className={`flex ${themeClass.bgAlt} ${themeClass.text} flex-col px-3 w-full h-[92vh] overflow-y-auto`}>
               <div className={`flex flex-col w-full ${themeClass.bg}`}>
                 <LeagueTeamSlider setLeague={ setLeague } handleLeagueTeams={ function (id: number): void {

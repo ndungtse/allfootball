@@ -9,11 +9,13 @@ import DateSlider from '../../components/matches/DateSlider'
 import LeagueSlider from '../../components/matches/leagueSlider'
 import { useApp } from '../../components/constants/contexts/AppContext'
 import fixtures from '../../lib/data/fixtures.json'
+import LinearLoader from '../../components/constants/LinearProgress'
 
 const Matches = () => {
   const { themeClass, setMobile } = useApp();
   const [league, setLeague] = useState('all leagues');
   const [leagueFix, setLeagueFix] = useState<any>(fixtures)
+  const [ linear, setLinear ] = useState<boolean>(false)
 
   const handleLeagueFix = (id: number) => {
     if(id===-1){
@@ -26,9 +28,10 @@ const Matches = () => {
 
   return (
     <div className={`flex flex-col w-full h-screen overflow-hidden ${themeClass.bg}`}>
+      {linear && <LinearLoader />}
         <NavBar />
         <div className="flex">
-            <SideBar active='matches' />
+            <SideBar active='matches' setLinear={setLinear} />
             <div onClick={()=> setMobile(false)} className={`flex ${themeClass.bgAlt} ${themeClass.text} flex-col px-3 w-full h-[92vh] overflow-y-auto`}>
               <div className={`flex flex-col min-h-[92vh] w-full ${themeClass.bg}`}>
                 <LeagueSlider setLeague={setLeague} handleLeagueFix={handleLeagueFix} />

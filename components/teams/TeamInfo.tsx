@@ -1,4 +1,3 @@
-import { LinearProgress } from '@mui/material'
 import React, { useState } from 'react'
 import { useApp } from '../constants/contexts/AppContext'
 import NavSlider from '../constants/NavSlider'
@@ -13,7 +12,7 @@ const TeamInfo = () => {
 
   return (
     <div className='pt-11 flex flex-col items-center px-2 w-full'>
-        <div className={`flex items-center z-10 ${themeClass.bg}`}>
+        <div className={`flex flex-col items-center z-10 ${themeClass.bg}`}>
           <NavSlider>
             <div onClick={()=>handleContentChange('Player')}
               className={`flex ${content==='Player'?'border-x-2 border-t-2':'border-b-2 border-t-2 border-t-transparent'}
@@ -41,7 +40,6 @@ const TeamInfo = () => {
               <p className='font-semibold conc w-full'>Sponsorship</p>
             </div>
           </NavSlider>
-          {/* <LinearProgress /> */}
         </div>
     </div>
   )

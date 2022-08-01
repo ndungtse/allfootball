@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 import { useApp } from '../../components/constants/contexts/AppContext'
+import LinearLoader from '../../components/constants/LinearProgress'
 import NavBar from '../../components/constants/NavBar'
 import SideBar from '../../components/constants/SideBar'
 import TeamInfo from '../../components/teams/TeamInfo'
@@ -10,6 +11,7 @@ import TeamInfo from '../../components/teams/TeamInfo'
 const Team = () => {
   const { themeClass, setMobile, isDark } = useApp()
   const [ teamDetails, setTeamDetails ] = useState<any>(null)
+  const [ linear, setLinear ] = useState<boolean>(false)
   const router =  useRouter()
   const { team } = router.query
 
@@ -28,9 +30,10 @@ const Team = () => {
 
   return (
     <div className={`flex flex-col ${themeClass.bg} w-full h-screen overflow-hidden`}>
+      {linear && <LinearLoader />}
     <NavBar />
     <div className="flex">
-        <SideBar active='teams' />
+        <SideBar active='teams' setLinear={setLinear} />
         <div onClick={()=> setMobile(false)} className={`flex ${themeClass.bgAlt} ${themeClass.text} flex-col px-3 w-full h-[92vh] overflow-y-auto`}>
           <div className={`flex min-h-full flex-col w-full ${themeClass.bg}`}>
             <div className=" flex items-center h-[50vh] overflow-hidden">

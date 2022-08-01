@@ -6,11 +6,13 @@ import NavBar from '../../components/constants/NavBar'
 import SideBar from '../../components/constants/SideBar'
 import { useApp } from '../../components/constants/contexts/AppContext';
 import leaguesData from '../../lib/data/leagues.json'
+import LinearLoader from '../../components/constants/LinearProgress';
 
 const Leagues = () => {
   const { themeClass, setMobile } = useApp();
   const [leagueType, setLeagueType] = useState('League')
   const [leagues, setLeagues] = useState(leaguesData)
+  const [ linear, setLinear ] = useState<boolean>(false)
 
   const handleLeagueTypeChange = (type: string)=> {
       setLeagueType(type)
@@ -19,9 +21,10 @@ const Leagues = () => {
 
   return (
     <div className={`flex ${themeClass.bg} flex-col w-full h-screen overflow-hidden`}>
+        {linear && <LinearLoader />}
         <NavBar />
         <div className="flex">
-            <SideBar active='leagues' />
+            <SideBar active='leagues' setLinear={setLinear} />
             <div onClick={()=> setMobile(false)} className={`flex ${themeClass.bgAlt} ${themeClass.text} flex-col px-3 w-full h-[92vh] overflow-y-auto`}>
               <div className={`flex flex-col items-center min-h[92vh]  p-2 w-full ${themeClass.bg}`}>
                 <h2 className='text-center w-full font-semibold text-lg'>Leagues and Cups Information</h2>

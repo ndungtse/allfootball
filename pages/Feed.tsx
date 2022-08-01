@@ -1,21 +1,24 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import Footer from '../components/constants/Footer'
 import NavBar from '../components/constants/NavBar'
 import SideBar from '../components/constants/SideBar'
 import Match from '../components/feed/Match'
 import { useApp } from '../components/constants/contexts/AppContext'
 import eplfix from '../lib/data/eplfix.json'
+import LinearLoader from '../components/constants/LinearProgress'
 
 const Feed = () => {
   const { themeClass, setMobile } = useApp()
+  const [ linear, setLinear ] = useState(false);
 
   return (
     <div className={`flex flex-col ${themeClass.bg} w-full h-screen overflow-hidden`}>
+        {linear&&<LinearLoader />}
         <NavBar/>
         <div className="flex">
-            <SideBar active='home' />
+            <SideBar active='home' setLinear={setLinear} />
             <div onClick={()=> setMobile(false)} className={`flex ${themeClass.bgAlt} ${themeClass.text} flex-col px-3 pt-1 w-full h-[92vh] overflow-y-auto`}>
               <div className="relative w-full h-[30vh] flex items-center">
                 <div className='flex items-center overflow-hidden h-full w-full'>
