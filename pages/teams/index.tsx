@@ -7,17 +7,26 @@ import SideBar from '../../components/constants/SideBar'
 import LeagueTeamSlider from '../../components/matches/LeagueTeamSlider';
 import { useApp } from '../../components/constants/contexts/AppContext';
 import LinearLoader from '../../components/constants/LinearProgress';
+import { getTeams } from '../../helpers/apiCalls';
 
 const Teams = () => {
   const { themeClass, setMobile } = useApp();
-  const [league, setLeague] = useState('all leagues');
+  const [league, setLeague] = useState({name: 'Confederation Cup', id: 21});
   const [leagueTeams, setLeagueTeams] = useState([])
   const [ linear, setLinear ] = useState<boolean>(false)
 
+  const getTeamsByLeague = async () => {
+    const opts = { 
+      params: {league: league.id},
+      headers: { 'Content-Type': 'application/json' } }
+
+      const data = await getTeams(opts);
+      setLeagueTeams(data.response)
+  }
+
   useEffect(()=>{
-    const teams: any = localStorage.getItem('eplteams')
-    setLeagueTeams(JSON.parse(teams))
-  },[])
+    getTeamsByLeague()
+  },[league])
 
   return (
     <div className={`flex flex-col ${themeClass.bg} w-full h-screen overflow-hidden`}>
@@ -32,7 +41,7 @@ const Teams = () => {
             } } /> 
                 <div className="flex flex-col h-fl w-full px-3">
                   <div className={` w-full border-x-2 border-b-2 ${themeClass.border}`}>
-                    <h1 className='my-3 w-full flex ml-3'>Teams currently in&nbsp;<p className='font-semibold'>{ league }</p></h1>
+                    <h1 className='my-3 w-full flex ml-3'>Teams currently in&nbsp;<p className='font-semibold'>{ league.name }</p></h1>
                     <div className={`grid desktop:grid-cols-4 xtab:grid-cols-3 phone:grid-cols-2 gap-3 p-3 pt-0`}>
                       {leagueTeams.map((team: any, i: any)=> (
                         <Link href={`teams/${team.team.id}`} key={i}>

@@ -3,6 +3,7 @@ import { BiChevronLeft, BiChevronRight } from 'react-icons/bi';
 
 const NavSlider = ({ children}:{ children: ReactNode, props?: any}) => {
     const [chevAppear, setChevApp] = useState<any>({left: false, right: false})
+    const [winObje, setWindow] = useState({})
     const sliderRef = useRef(null)
     const curRef: any = sliderRef.current
 
@@ -43,10 +44,11 @@ const NavSlider = ({ children}:{ children: ReactNode, props?: any}) => {
     }
 
     useEffect(()=>{
+        if(typeof window !== undefined) setWindow(window)
         const slider: any = sliderRef.current
         if(slider.scrollWidth>slider.offsetWidth) setChevApp({left: false, right: true})
         
-    },[])   
+    },[winObje])   
 
   return (
         <div className='relative px-3 overflow-hidden w-full' onClick={logRef} >

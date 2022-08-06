@@ -1,17 +1,35 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from '../components/constants/Footer'
 import NavBar from '../components/constants/NavBar'
 import SideBar from '../components/constants/SideBar'
 import Match from '../components/feed/Match'
 import { useApp } from '../components/constants/contexts/AppContext'
-import eplfix from '../lib/data/eplfix.json'
+// import eplfix from '../lib/data/eplfix.json'
 import LinearLoader from '../components/constants/LinearProgress'
+import { getFixtures } from '../helpers/apiCalls'
+import { date } from '../helpers/other'
 
 const Feed = () => {
   const { themeClass, setMobile } = useApp()
   const [ linear, setLinear ] = useState(false);
+  const [ eplfix, setEplfix ] = useState([]);
+
+  const getRes = async () => {
+    console.log(date);
+    
+    const opts = { 
+    params: {season: '2022', league: '39', date: date},
+     headers: { 'Content-Type': 'application/json' } }
+    const data  = await getFixtures(opts)
+    setEplfix(data.response)
+    console.log(data);
+  }
+
+  useEffect(() => {
+    getRes()
+  }, [])
 
   return (
     <div className={`flex flex-col ${themeClass.bg} w-full h-screen overflow-hidden`}>
@@ -46,17 +64,6 @@ const Feed = () => {
                 <div className={`grid ltab:grid-cols-2 xtab:grid-cols-3 p-3 pt-0`}>
                     {eplfix.map((fix: any, index)=>(
                       <Match key={index} fix={fix} setLinear={setLinear} />
-                    ))}
-                  </div>
-                  <Link href='matches'><p className='text-orange-600 mx-3 cursor-pointer hover:underline mb-2'>See All Matches</p></Link> 
-                </div>
-              </div>
-              <div className="flex flex-col">
-                <h1 className='font-bold text-lg mt-3 ml-3'>La liga</h1>
-                <div className={`flex flex-col ${themeClass.bg} rounded-lg`}>
-                <div className={`grid ltab:grid-cols-2 xtab:grid-cols-3 p-3 pt-0`}>
-                    {eplfix.map((fix: any, index)=>(
-                      <Match key={index} fix={fix} />
                     ))}
                   </div>
                   <Link href='matches'><p className='text-orange-600 mx-3 cursor-pointer hover:underline mb-2'>See All Matches</p></Link> 

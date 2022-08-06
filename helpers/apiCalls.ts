@@ -23,3 +23,9 @@ export const getPlayers = async (_opts?: object) => {
     const data = await getApi('players', options);
     return data
 }
+
+export const getTeams = async (_opts?: object) => {
+    const options = {..._opts, headers: footHeaders}
+    const data = await getApi('teams', options);
+    return data
+}
