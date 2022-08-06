@@ -15,19 +15,19 @@ const Match = ({fix, setLinear}: any) => {
           className="flex flex-col items-center cursor-pointer">
           {/* <img src="" alt="h logo" /> */}
           <BiFootball className='text-[3em]' />
-          <p className="font-semibold">{home.name}</p>
+          <p className="font-semibold text-center">{home.name}</p>
           </div>
         </Link>
         <div className="flex mx-3 flex-col items-center">
           <img className='w-[50px] h-[50px] rounded-full' src={logo} alt={name} />
-          <p>{date.split("T")[0]}</p>
-          <p>{date.split("T")[1].split(":")[0]+":"+date.split("T")[1].split(":")[1]}</p>
+          <p className='text-center'>{date.split("T")[0]}</p>
+          <p className='text-center'>{date.split("T")[1].split(":")[0]+":"+date.split("T")[1].split(":")[1]}</p>
         </div>
         <Link href={`teams/${away.id}`}><div onClick={()=> setLinear(true)}
           className="flex flex-col items-center cursor-pointer">
           {/* <img src="" alt="a logo" /> */}
           <BiFootball className='text-[3em]' />
-          <p className="font-semibold">{away.name}</p>
+          <p className="font-semibold text-center">{away.name}</p>
           </div>
         </Link>
       </div>

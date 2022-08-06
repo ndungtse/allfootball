@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { BiChevronRight } from 'react-icons/bi'
 import Footer from '../../components/constants/Footer'
 import NavBar from '../../components/constants/NavBar'
@@ -10,10 +10,12 @@ import LeagueSlider from '../../components/matches/leagueSlider'
 import { useApp } from '../../components/constants/contexts/AppContext'
 import fixtures from '../../lib/data/fixtures.json'
 import LinearLoader from '../../components/constants/LinearProgress'
+import { getFixtures } from '../../helpers/apiCalls'
+import { date } from '../../helpers/other'
 
 const Matches = () => {
   const { themeClass, setMobile } = useApp();
-  const [league, setLeague] = useState('all leagues');
+  const [league, setLeague] = useState({name: 'all leagues', id: 21});
   const [leagueFix, setLeagueFix] = useState<any>(fixtures)
   const [ linear, setLinear ] = useState<boolean>(false)
 
@@ -25,6 +27,20 @@ const Matches = () => {
       setLeagueFix(leagueFixs);
     }
   }
+
+  const getFixByLeague = async () => {
+    const opts = { 
+      params: { league: league.id, season: 2022, date: date },
+      headers: { 'Content-Type': 'application/json' } }
+      const data = await getFixtures(opts);
+      console.log(data)
+      setLeagueFix(data.response)
+  }
+
+  useEffect(()=>{
+    console.log(league);
+    getFixByLeague()
+  },[league])
 
   return (
     <div className={`flex flex-col w-full h-screen overflow-hidden ${themeClass.bg}`}>
@@ -42,8 +58,8 @@ const Matches = () => {
                       <DateSlider />
                     </div>
                     <div className="flex flex-col">
-                      <h1 className='font-bold text-lg mt-3 ml-3'>{league}</h1>
-                      {leagueFix.length===0 && <p className=' mt-3 ml-3'>No matche on this date</p>}
+                      <h1 className='font-bold text-lg mt-3 ml-3'>{league.name}</h1>
+                      {leagueFix.length===0 && <p className=' mt-3 ml-3'>No matches on this date</p>}
                       <div className={`flex flex-col ${themeClass.bg} rounded-lg`}>
                         <div className={`grid ltab:grid-cols-2 xtab:grid-cols-3 p-3 pt-0`}>
                           {leagueFix.map((fix: any, index: any)=>(

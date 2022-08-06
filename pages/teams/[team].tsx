@@ -6,6 +6,7 @@ import LinearLoader from '../../components/constants/LinearProgress'
 import NavBar from '../../components/constants/NavBar'
 import SideBar from '../../components/constants/SideBar'
 import TeamInfo from '../../components/teams/TeamInfo'
+import { getTeams } from '../../helpers/apiCalls'
 // import teams from '..'
 
 const Team = () => {
@@ -16,16 +17,19 @@ const Team = () => {
   const { team } = router.query
 
   console.log(team);
+
+  const getTeamById = async () => { 
+    const opts = {
+      params: { id: team },
+      headers: { 'Content-Type': 'application/json' }
+    }
+    const data = await getTeams(opts);
+    console.log(data)
+    setTeamDetails(data.response)
+  }
   
   useEffect(()=> {
-    const localteams: any = localStorage.getItem("eplteams")
-    const teams = JSON.parse(localteams);
-    console.log(teams, team);
-    const oneTeam = teams.filter((t: any)=> t.team.id === Number(team))
-    setTeamDetails(oneTeam[0])
-    console.log(teams.filter((t: any)=> t.team.id === 49 ));
-    
-
+    getTeamById()
   },[team])
 
   return (
@@ -44,7 +48,7 @@ const Team = () => {
                -top-[10em] shadow-2xl  p-2 z-[30]  -translate-x-1/2 flex flex-col w-full phone:w-11/12`}>
                 <div className="flex w-full px-3 items-center justify-between">
                   <div className="flex items-center">
-                    <Image className="min-h-full" height="20" width="100" src="/vercel.svg" alt="" />
+                    <Image className="min-h-full" height="20" width="100" src={teamDetails?.team.logo} alt="" />
                     <p className="font-semibold ml-3 text-2xl">{teamDetails?.team.name.toUpperCase()}</p>
                   </div>
                   <button className="py-1 px-3 bg-orange-600">Like</button>

@@ -14,7 +14,7 @@ const LeagueTeamSlider: React.FC<Props> = ({ setLeague, handleLeagueTeams }) => 
 
     const handleLeagueChange = async(league: { id: any; name: string})=> {
         setActive(league.id);
-        setLeague(league.name);
+        setLeague((prev: any)=> ({id: league.id, name: league.name}));
         // handleLeagueTeams(league.id)
     }
   return (

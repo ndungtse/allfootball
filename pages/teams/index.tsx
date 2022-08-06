@@ -17,14 +17,17 @@ const Teams = () => {
 
   const getTeamsByLeague = async () => {
     const opts = { 
-      params: {league: league.id},
+      params: { league: league.id, season: 2022 },
       headers: { 'Content-Type': 'application/json' } }
 
       const data = await getTeams(opts);
+      console.log(data)
       setLeagueTeams(data.response)
   }
 
   useEffect(()=>{
+    console.log(league);
+    
     getTeamsByLeague()
   },[league])
 
