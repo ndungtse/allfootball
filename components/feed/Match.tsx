@@ -14,20 +14,33 @@ const Match = ({fix, setLinear}: any) => {
         <Link href={`teams/${home.id}`}><div onClick={()=> setLinear(true)}
           className="flex flex-col items-center cursor-pointer">
           {/* <img src="" alt="h logo" /> */}
-          <BiFootball className='text-[3em]' />
-          <p className="font-semibold text-center">{home.name}</p>
+          <img className='w-[80px] h-[80px] rounded-full' src={home.logo} alt={home.name} />
+          <p className="font-semibold mt-2 text-center">{home.name}</p>
           </div>
         </Link>
-        <div className="flex mx-3 flex-col items-center">
+          {status.short === "FT"?(
+            <div className="flex items-center">
+              <p className="font-semibold ml-3 text-[3em] text-center">{score.fulltime.home}</p>
+              <div className="flex mx-3 flex-col items-center">
+                <img className='w-[50px] h-[50px] rounded-full' src={logo} alt={name} />
+                <p>FT</p>
+              </div>  
+              <p className="font-semibold mx-2 text-[3em] text-center">{score.fulltime.away}</p>
+            </div>
+          ):(
+            <>
+          <div className="flex mx-3 flex-col items-center">
           <img className='w-[50px] h-[50px] rounded-full' src={logo} alt={name} />
-          <p className='text-center'>{date.split("T")[0]}</p>
-          <p className='text-center'>{date.split("T")[1].split(":")[0]+":"+date.split("T")[1].split(":")[1]}</p>
-        </div>
+            <p className='text-center'>{date.split("T")[0]}</p>
+            <p className='text-center'>{date.split("T")[1].split(":")[0]+":"+date.split("T")[1].split(":")[1]}</p>
+          </div>
+          </>
+          )}
         <Link href={`teams/${away.id}`}><div onClick={()=> setLinear(true)}
           className="flex flex-col items-center cursor-pointer">
           {/* <img src="" alt="a logo" /> */}
-          <BiFootball className='text-[3em]' />
-          <p className="font-semibold text-center">{away.name}</p>
+          <img className='w-[80px] h-[80px] rounded-full' src={away.logo} alt={away.name} />
+          <p className="font-semibold mt-2 text-center">{away.name}</p>
           </div>
         </Link>
       </div>

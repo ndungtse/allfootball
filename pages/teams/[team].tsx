@@ -25,11 +25,12 @@ const Team = () => {
     }
     const data = await getTeams(opts);
     console.log(data)
-    setTeamDetails(data.response)
+   if(data.response.length !== 0) setTeamDetails(data.response[0])
   }
   
   useEffect(()=> {
-    getTeamById()
+    if(team)getTeamById()
+    console.log(teamDetails)
   },[team])
 
   return (
@@ -48,7 +49,7 @@ const Team = () => {
                -top-[10em] shadow-2xl  p-2 z-[30]  -translate-x-1/2 flex flex-col w-full phone:w-11/12`}>
                 <div className="flex w-full px-3 items-center justify-between">
                   <div className="flex items-center">
-                    <Image className="min-h-full" height="20" width="100" src={teamDetails?.team.logo} alt="" />
+                    <Image className="min-h-full object-cover aspect-square rounded-full my-2" height="80" width="80" src={teamDetails?.team.logo} alt="" />
                     <p className="font-semibold ml-3 text-2xl">{teamDetails?.team.name.toUpperCase()}</p>
                   </div>
                   <button className="py-1 px-3 bg-orange-600">Like</button>
@@ -84,7 +85,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        </div>  
+        </div>
     </div>
   )
 }
