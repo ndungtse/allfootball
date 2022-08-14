@@ -8,6 +8,7 @@ import LeagueTeamSlider from '../../components/matches/LeagueTeamSlider';
 import { useApp } from '../../components/constants/contexts/AppContext';
 import LinearLoader from '../../components/constants/LinearProgress';
 import { getTeams } from '../../helpers/apiCalls';
+import Image from 'next/image';
 
 const Teams = () => {
   const { themeClass, setMobile } = useApp();
@@ -50,7 +51,7 @@ const Teams = () => {
                         <Link href={`teams/${team.team.id}`} key={i}>
                           <div onClick={()=> setLinear(true)} className={`flex border-2 flex-col
                            items-center cursor-pointer ${themeClass.border}`}>
-                            <BiFootball className='text-[4em]' />
+                            <Image className="min-h-full object-cover aspect-square rounded-full my-2" height="80" width="80" src={team.team.logo} alt="" />
                             <p className='text-center'>Name: {team.team.name} </p>
                             <p className='text-center'>Stadium: {team.venue.name} </p>
                           </div>

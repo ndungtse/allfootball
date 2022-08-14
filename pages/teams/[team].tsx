@@ -72,12 +72,8 @@ const Team = () => {
                     <p className="text-base phone:text-xl">{teamDetails?.venue.city.toUpperCase()}</p>
                   </div>
                   <div className="flex flex-col">
-                    <p className='text-slate-300'>COUNTRY</p>
-                    <p className="text-base phone:text-xl">ENGLAND</p>
-                  </div>
-                  <div className="flex flex-col">
-                    <p className='text-slate-300'>COUNTRY</p>
-                    <p className="text-base phone:text-xl">ENGLAND</p>
+                    <p className='text-slate-300'>ADDRESS</p>
+                    <p className="text-base phone:text-lg">{teamDetails?.venue.address}</p>
                   </div>
                 </div>
               </div>

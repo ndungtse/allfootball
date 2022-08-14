@@ -7,6 +7,7 @@ import SideBar from '../../components/constants/SideBar'
 import { useApp } from '../../components/constants/contexts/AppContext';
 import leaguesData from '../../lib/data/leagues.json'
 import LinearLoader from '../../components/constants/LinearProgress';
+import Image from 'next/image';
 
 const Leagues = () => {
   const { themeClass, setMobile } = useApp();
@@ -50,7 +51,7 @@ const Leagues = () => {
                           <Link href={`teams/`} key={i}>
                             <div className={`flex border-2 flex-col
                              items-center cursor-pointer ${themeClass.border}`}>
-                              <BiFootball className='text-[4em]' />
+                              <Image className="min-h-full object-cover aspect-square rounded-full my-2" height="100" width="100" src={league.league.logo} alt="" />
                               <p className='text-center'>Name: {league.league.name} </p>
                               {/* <p className='text-center'>Stadium: {league.venue.name} </p> */}
                             </div>
