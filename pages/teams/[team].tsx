@@ -42,7 +42,7 @@ const Team = () => {
         <div onClick={()=> setMobile(false)} className={`flex ${themeClass.bgAlt} ${themeClass.text} flex-col px-3 w-full h-[92vh] overflow-y-auto`}>
           <div className={`flex min-h-full flex-col w-full ${themeClass.bg}`}>
             <div className="flex h-[40vh] items-center tablet:h-[50vh] overflow-hidden">
-              <img className='min-w-full min-h-full object-cover' src="/cthing.jpg" alt="" />
+              <img className='min-w-full min-h-full object-cover' src={teamDetails?.venue.image} alt="" />
             </div>
             <div className="relative">
               <div className={`absolute ${themeClass.bg} left-1/2 ${isDark && ' shadow-gray-800'}
