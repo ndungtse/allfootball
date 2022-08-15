@@ -20,7 +20,6 @@ export const getApi = async (path: string, _options?: any) => {
         return data
     } catch (error: any) {
         console.log(error);
-        
         return {error: error, message: error?.message}
     }
 }

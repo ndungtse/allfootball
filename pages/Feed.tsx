@@ -8,13 +8,15 @@ import Match from '../components/feed/Match'
 import { useApp } from '../components/constants/contexts/AppContext'
 // import eplfix from '../lib/data/eplfix.json'
 import LinearLoader from '../components/constants/LinearProgress'
-import { getFixtures } from '../helpers/apiCalls'
+import { getFixtures, getStandings } from '../helpers/apiCalls'
 import { date } from '../helpers/other'
+import Standings from '../components/leagues/Standings'
 
 const Feed = () => {
   const { themeClass, setMobile } = useApp()
   const [ linear, setLinear ] = useState(false);
   const [ eplfix, setEplfix ] = useState([]);
+  const [ standings, setStandings ] = useState<any>(null);
 
   const getRes = async () => {
     console.log(date);
@@ -27,8 +29,21 @@ const Feed = () => {
     console.log(data);
   }
 
+  const getStands = async () => {
+    const opts = {
+      params: {season: '2022', league: '39'},
+      headers: { 'Content-Type': 'application/json' }
+    }
+    const data = await getStandings(opts);
+    console.log(data);
+    setStandings(data.response[0])
+  }
+
   useEffect(() => {
     getRes()
+  }, [])
+  useEffect(() => {
+    getStands()
   }, [])
 
   return (
@@ -44,10 +59,8 @@ const Feed = () => {
                 </div>
                 <div className="absolute px-3 text-white justify-center top-0 left-0 w-full flex flex-col bg-black/50 h-full">
                   <p className="text-lg font-semibold opacity-80">UCL</p>
-                  <div className="flex xs:text-4xl flex-wrap">
-                    <p className=" mt-2 font-semibold">CHELSEA</p>
-                    <p className=" mt-2 font-semibold mx-2">1-0</p>
-                    <p className=" mt-2 font-semibold">MAN CITY</p>
+                  <div className="flex xs:text-xl flex-wrap">
+                    <p className=" mt-2 font-semibold">uefa champions league draw to be confirmed</p>
                   </div>
                   <Link href={`/login`} className=''>
                     <button className={`py-1 flex mt-3 w-[150px] items-center justify-center duration-300
@@ -68,6 +81,7 @@ const Feed = () => {
                   </div>
                   <Link href='matches'><p className='text-orange-600 mx-3 cursor-pointer hover:underline mb-2'>See All Matches</p></Link> 
                 </div>
+                <Standings data={standings?.league?.standings[0]} />
               </div>
               <Footer />
             </div>

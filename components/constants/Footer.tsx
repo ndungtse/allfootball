@@ -1,5 +1,5 @@
 import React from 'react'
-import { BiEnvelopeOpen } from 'react-icons/bi'
+import { BiEnvelopeOpen, BiGlobe } from 'react-icons/bi'
 import { FaFacebookSquare, FaGithubSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
@@ -23,7 +23,11 @@ const Footer = () => {
 		     <a className="flex items-center px-2" href="mailto:ndungutsecharles103@gmail.com" target="_blank"
 		       rel="no-referrer">
     	      	<BiEnvelopeOpen className='text-xl' />
-            </a>
+             </a>
+		     <a className="flex items-center px-2" href="https://www.ndungutsecharles.me" target="_blank"
+		       rel="no-referrer">
+    	      	<BiGlobe className='text-xl' />
+             </a>
 		</div>
     </div>
   )
