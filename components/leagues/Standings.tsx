@@ -15,7 +15,7 @@ export default function Standings({data}: any) {
       <Table sx={{ minWidth: 650 }} aria-label="caption table">
         {/* <caption>A basic table example with a caption</caption> */}
         <TableHead>
-          <TableRow>
+          <TableRow sx={{borderBottom: isDark?'2px solid #212f4b':''}}>
             <TableCell sx={{color: isDark?'white':'black'}} >Club</TableCell>
             <TableCell sx={{color: isDark?'white':'black'}} align="right">MP</TableCell>
             <TableCell sx={{color: isDark?'white':'black'}} align="right">W</TableCell>
@@ -29,11 +29,11 @@ export default function Standings({data}: any) {
         </TableHead>
         <TableBody>
           {data?.map((row: any) => (
-            <TableRow hover key={row.name} sx={{":hover": { cursor: 'pointer'}}} >
+            <TableRow hover key={row.name} sx={{":hover": { cursor: 'pointer', backgroundColor: isDark?'#0f1327!important':''}, borderBottom: isDark?'2px solid #212f4b':''}} >
               <TableCell sx={{color: isDark?'white':'black', ":hover": { cursor: 'pointer'}}} component="th" scope="row">
                <div className={`flex w-full ${isDark&&'text-white'} h-full items-center`}>
                 <p>{row.rank}</p>
-                <img className='w-[20px] mx-2 h-[20px] object-cover' src={row.team.logo} alt="" />
+                <img className='w-[20px] bg-[] mx-2 h-[20px] object-cover' src={row.team.logo} alt="" />
                 <p>{row.team.name}</p>
                </div>
               </TableCell>

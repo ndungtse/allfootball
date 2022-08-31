@@ -34,7 +34,7 @@ const themes = {
         text: 'text-slate-100',
         bg: 'bg-[#040921]',
         bg1: 'bg-orange-600',
-        bgAlt: 'bg-[#212f4b]',
+        bgAlt: 'bg-[#040921c]',
         textAlt: 'text-black',
         textAlt1: 'text-orange-600',
         border: 'border-[#212f4b]',
