@@ -29,7 +29,7 @@ export default function Standings({data}: any) {
         </TableHead>
         <TableBody>
           {data?.map((row: any) => (
-            <TableRow hover key={row.name} sx={{":hover": { cursor: 'pointer', backgroundColor: isDark?'#0f1327!important':''}, borderBottom: isDark?'2px solid #212f4b':''}} >
+            <TableRow hover key={row.team.id} sx={{":hover": { cursor: 'pointer', backgroundColor: isDark?'#0f1327!important':''}, borderBottom: isDark?'2px solid #212f4b':''}} >
               <TableCell sx={{color: isDark?'white':'black', ":hover": { cursor: 'pointer'}}} component="th" scope="row">
                <div className={`flex w-full ${isDark&&'text-white'} h-full items-center`}>
                 <p>{row.rank}</p>

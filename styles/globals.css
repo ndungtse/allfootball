@@ -41,3 +41,7 @@
     left: 0!important;
     color: #212f4b;
 }
+
+.semip:hover div{
+    display: block !important;
+}
