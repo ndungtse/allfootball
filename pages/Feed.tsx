@@ -74,7 +74,7 @@ const Feed = () => {
               <div className="flex flex-col">
                 <h1 className='font-bold text-lg mt-3 ml-3'>Premier Legue</h1>
                 <div className={`flex flex-col ${themeClass.bg} rounded-lg`}>
-                <div className={`grid ltab:grid-cols-2 xtab:grid-cols-3 p-3 pt-0`}>
+                <div className={`grid ltab:grid-cols-2 xtab:grid-cols-3 pb-3 phone:px-3 pt-0`}>
                     {eplfix.map((fix: any, index)=>(
                       <Match key={index} fix={fix} setLinear={setLinear} />
                     ))}
