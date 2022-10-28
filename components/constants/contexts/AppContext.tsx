@@ -1,11 +1,11 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 
 interface appContextType {
     isDark: any,
     setIsDark: (isDark: any) => void,
     themeClass: any;
     mobile: boolean;
-    setMobile: (mobile: boolean) => void;
+    setMobile: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const appDefaultValues = {

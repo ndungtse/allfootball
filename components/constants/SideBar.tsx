@@ -6,9 +6,9 @@ import {  FaTrophy, FaTshirt, FaUsers } from 'react-icons/fa'
 import { useApp } from './contexts/AppContext';
 
 type Props = {
-  active: string;
-  setLinear: React.Dispatch<boolean>
-}
+	active: string;
+	setLinear: React.Dispatch<React.SetStateAction<boolean>>;
+};
 
 const SideBar: React.FC<Props> = ({ active, setLinear }) => {
   const { themeClass, mobile, setMobile } = useApp();

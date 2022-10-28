@@ -2,26 +2,26 @@ import React, { useState } from 'react'
 import { useApp } from '../constants/contexts/AppContext';
 import NavSlider from '../constants/NavSlider';
 import leagues from '../../lib/data/leagues.json'
+import { useRouter } from 'next/router';
 
 type Props = {
-  setLeague: React.Dispatch<any>;
-  handleLeagueFix: (id: number) => void;
+  active?: number;
+  setLinear: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const LeagueSlider: React.FC<Props> = ({ setLeague, handleLeagueFix }) => {
-    const [ active, setActive ] = useState<number>(-1);
+const LeagueSlider: React.FC<Props> = ({ active, setLinear }) => {
     const { themeClass } = useApp()
+    const router = useRouter()
 
     const handleLeagueChange = async(league: { id: any; name: string})=> {
-        setActive(league.id);
-        setLeague({id: league.id, name: league.name});
-        handleLeagueFix(league.id)
+        setLinear(true)
+        router.push(`/matches/leagues/${league.id}`)
     }
   return (
     <div className={`sticky pt-1 z-10 top-0 ${themeClass.bg}`}>
     <NavSlider >
         <div className="flex items-center">
-            <div onClick={()=>handleLeagueChange({id: -1, name: "all leagues"})} className={`flex ${active===-1?'border-x-2 border-t-2':'border-b-2'}
+            <div onClick={()=> router.push(`/`)} className={`flex ${active===-1?'border-x-2 border-t-2':'border-b-2'}
              cursor-pointer ${themeClass.border} py-2 px-3 items-center`}>
                 <p className='font-semibold'>All</p>
             </div>

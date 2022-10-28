@@ -1,44 +1,50 @@
-import React from 'react'
-import NavSlider from '../constants/NavSlider'
+import moment from "moment";
+import React, { useState } from "react";
+import NavSlider from "../constants/NavSlider";
+import DatePicker from "./DatePicker";
 
-const DateSlider = () => {
-  return (
-    <NavSlider>
-      <div className='flex items-center  w-full'>
-      <input  onChange={(e:any)=> console.log(e.target.value)} placeholder='date' className='hidden ml-3' type="date" name="" id="date" />
-        <label onClick={(e: any)=> { e.target.control.value = e.target.textContent; console.log(e.target.control.value);
-         }} htmlFor='date' className="flex items-center mx-1 px-3
-         border-2 border-orange-600 cursor-pointer bg-orange-600 justify-center">
-         2022/07/14
-        </label>
-        <label onClick={(e: any)=> { e.target.control.value = e.target.textContent; console.log(e.target.control.value);
-         }} htmlFor='date' className="flex items-center mx-1 px-3
-         border-2 border-orange-600 cursor-pointer justify-center">
-         2022/07/17
-        </label>
-        <label onClick={(e: any)=> { e.target.control.value = e.target.textContent; console.log(e.target.control.value);
-         }} htmlFor='date' className="flex items-center mx-1 px-3
-         border-2 border-orange-600 cursor-pointer justify-center">
-         2022/07/18
-        </label>
-        <label onClick={(e: any)=> { e.target.control.value = e.target.textContent; console.log(e.target.control.value);
-         }} htmlFor='date' className="flex items-center mx-1 px-3
-         border-2 border-orange-600 cursor-pointer justify-center">
-         2022/07/18
-        </label>
-        <label onClick={(e: any)=> { e.target.control.value = e.target.textContent; console.log(e.target.control.value);
-         }} htmlFor='date' className="flex items-center mx-1 px-3
-         border-2 border-orange-600 cursor-pointer justify-center">
-         2022/07/18
-        </label>
-        <label onClick={(e: any)=> { e.target.control.value = e.target.textContent; console.log(e.target.control.value);
-         }} htmlFor='date' className="flex items-center mx-1 px-3
-         border-2 border-orange-600 cursor-pointer justify-center">
-         2022/07/18
-        </label>
-      </div>
-    </NavSlider>
-  )
-}
+type Props = {
+	date?: Date | string;
+	setDate?: React.Dispatch<React.SetStateAction<Date | string>>;
+};
 
-export default DateSlider
+const DateSlider = ({ date, setDate }: Props) => {
+	const midDate = moment(date).format("YYYY-MM-DD");
+	const newdates = [
+		moment(date).subtract(2, "days").format("YYYY-MM-DD"),
+		moment(date).subtract(1, "days").format("YYYY-MM-DD"),
+		midDate,
+		moment(date).add(1, "days").format("YYYY-MM-DD"),
+		moment(date).add(2, "days").format("YYYY-MM-DD"),
+	];
+	const [dates, setDates] = useState(newdates);
+
+	return (
+		<NavSlider>
+			<div className="flex items-center  w-full justify-center">
+				{/* <input
+					onChange={(e: any) => console.log(e.target.value)}
+					placeholder="date"
+					className="hidden ml-3"
+					type="date"
+					name=""
+					id="date"
+				/> */}
+				{dates.map((date) => (
+					<label
+						key={date}
+						onClick={() => (setDate ? setDate(date) : null)}
+						// htmlFor="date"
+						className="flex items-center mx-1 px-3
+          border-2 border-orange-600 cursor-pointer bg-orange-600 justify-center"
+					>
+						{date}
+					</label>
+				))}
+				<DatePicker date={date as Date} setDate={setDate as any} />
+			</div>
+		</NavSlider>
+	);
+};
+
+export default DateSlider;
