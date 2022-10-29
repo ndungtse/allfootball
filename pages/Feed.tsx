@@ -9,7 +9,7 @@ import { useApp } from '../components/constants/contexts/AppContext'
 // import eplfix from '../lib/data/eplfix.json'
 import LinearLoader from '../components/constants/LinearProgress'
 import { getFixtures, getStandings } from '../helpers/apiCalls'
-import { date } from '../helpers/other'
+import date from '../helpers/other'
 import Standings from '../components/leagues/Standings'
 
 const Feed = () => {

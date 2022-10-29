@@ -33,7 +33,7 @@ const Matches = () => {
   },[])
 
   return (
-		<MainLayout setLinear={setLinear} setMobile={setMobile} title={'matches'}>
+		<MainLayout setLinear={setLinear} title={'matches'}>
 			<div className={`flex flex-col min-h-[92vh] w-full ${themeClass.bg}`}>
 				<LeagueSlider active={-1} setLinear={setLinear} />
 				<div className="flex flex-col h-full justify-between w-full px-3">
@@ -44,14 +44,14 @@ const Matches = () => {
 						</div>
 						<div className="flex flex-col">
 							<h1 className="font-bold text-lg mt-3 ml-3">Today's matches</h1>
-							{fixtures.length === 0 && (
+							{fixtures?.length === 0 && (
 								<p className=" mt-3 ml-3">No matches on this date</p>
 							)}
 							<div className={`flex flex-col ${themeClass.bg} rounded-lg`}>
 								<div
-									className={`grid ltab:grid-cols-2 xtab:grid-cols-3 p-3 pt-0`}
+									className={`grid ltab:grid-cols-2 ltop:grid-cols-3 p-3 pt-0`}
 								>
-									{fixtures.map((fix: any, index: any) => (
+									{fixtures?.map((fix: any, index: any) => (
 										<Match key={index} fix={fix} setLinear={setLinear} />
 									))}
 								</div>

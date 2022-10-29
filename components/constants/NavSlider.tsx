@@ -26,12 +26,6 @@ const NavSlider = ({ children}:{ children: ReactNode, props?: any}) => {
         }
     }
 
-    const logRef = ()=> {
-        const slider: any = sliderRef.current
-        console.log(slider.scrollWidth, slider.offsetWidth);
-        
-    }
-
     const handleLeftChevClick = ()=> {
       const slider: any = sliderRef.current
       slider.scrollLeft -= 200;
@@ -51,7 +45,7 @@ const NavSlider = ({ children}:{ children: ReactNode, props?: any}) => {
     },[winObje])   
 
   return (
-        <div className='relative px-3 overflow-hidden w-full' onClick={logRef} >
+        <div className='relative px-3 overflow-hidden w-full' >
             {chevAppear.right && <BiChevronRight onClick={handleRightChevClick} 
             className='absolute text-3xl right-[-0.3em] cursor-pointer top-1/2 -translate-y-1/2 ' />}
             {chevAppear.left && <BiChevronLeft onClick={handleLeftChevClick}

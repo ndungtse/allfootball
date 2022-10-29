@@ -20,16 +20,8 @@ const DateSlider = ({ date, setDate }: Props) => {
 	const [dates, setDates] = useState(newdates);
 
 	return (
-		<NavSlider>
-			<div className="flex items-center  w-full justify-center">
-				{/* <input
-					onChange={(e: any) => console.log(e.target.value)}
-					placeholder="date"
-					className="hidden ml-3"
-					type="date"
-					name=""
-					id="date"
-				/> */}
+		<div className="flex items-center  w-full justify-center ltop:flex-row flex-col px-3">
+			<div className="flex items-center flex-wrap space-y-1 mx-auto">
 				{dates.map((date) => (
 					<label
 						key={date}
@@ -41,9 +33,9 @@ const DateSlider = ({ date, setDate }: Props) => {
 						{date}
 					</label>
 				))}
-				<DatePicker date={date as Date} setDate={setDate as any} />
 			</div>
-		</NavSlider>
+			<DatePicker date={date as Date} setDate={setDate as any} />
+		</div>
 	);
 };
 

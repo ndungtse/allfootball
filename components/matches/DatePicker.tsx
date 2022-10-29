@@ -45,7 +45,6 @@ export default function DatePicker({ date, setDate }: Props) {
 					type="text"
 					id="date"
 					onChange={(e: any) => handleChange(e.target.value)}
-					defaultValue={date as string}
 					value={inputProps?.value as string}
 				/>
 				{element?.props?.children}

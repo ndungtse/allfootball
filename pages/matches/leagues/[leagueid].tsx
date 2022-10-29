@@ -34,9 +34,9 @@ const LeagueMatches = () => {
     }, [date, leagueid])
 
   return (
-		<MainLayout setLinear={setLinear} setMobile={setMobile} title={"matches"}>
+		<MainLayout setLinear={setLinear} title={"matches"}>
 			<div className={`flex flex-col min-h-[92vh] w-full ${themeClass.bg}`}>
-				<LeagueSlider active={-1} setLinear={setLinear} />
+				<LeagueSlider active={Number(leagueid)} setLinear={setLinear} />
 				<div className="flex flex-col h-full justify-between w-full px-3">
 					<div className={`${themeClass.border} w-full border-x-2 border-b-2`}>
 						<div className="flex flex-col items-center">
@@ -50,7 +50,7 @@ const LeagueMatches = () => {
 							)}
 							<div className={`flex flex-col ${themeClass.bg} rounded-lg`}>
 								<div
-									className={`grid ltab:grid-cols-2 xtab:grid-cols-3 p-3 pt-0`}
+									className={`grid ltab:grid-cols-2 ltop:grid-cols-3 p-3 pt-0`}
 								>
 									{fixtures.map((fix: any, index: any) => (
 										<Match key={index} fix={fix} setLinear={setLinear} />

@@ -9,12 +9,11 @@ type MainLayoutProps = {
     linear?: boolean;
     setLinear: React.Dispatch<React.SetStateAction<boolean>>;
     title?: string;
-    setMobile: React.Dispatch<React.SetStateAction<boolean>>;
     children: React.ReactNode;
 }
 
-const MainLayout = ({linear, title, setLinear, setMobile, children}: MainLayoutProps) => {
-  const { themeClass } = useApp()
+const MainLayout = ({linear, title, setLinear, children}: MainLayoutProps) => {
+  const { themeClass, setMobile } = useApp()
   return (
 		<>
       <Head>
