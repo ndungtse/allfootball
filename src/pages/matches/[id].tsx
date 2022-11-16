@@ -155,7 +155,7 @@ const Feed = () => {
 					<Stats statistics={match?.statistics} />
 				)}
 			</div>
-			<Footer />
+			{/* <Footer /> */}
 		</MainLayout>
 	);
 };

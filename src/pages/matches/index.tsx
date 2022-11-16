@@ -63,7 +63,7 @@ const Matches = () => {
 							</div>
 						</div>
 					</div>
-					<Footer />
+					{/* <Footer /> */}
 				</div>
 			</div>
 		</MainLayout>

@@ -83,7 +83,7 @@ const Feed = () => {
                 </div>
                 <Standings data={standings?.league?.standings[0]} />
               </div>
-              <Footer />
+              {/* <Footer /> */}
             </div>
         </div>
     </div>
