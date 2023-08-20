@@ -10,7 +10,7 @@ import LeagueSlider from '../../components/matches/leagueSlider'
 import { useApp } from '../../components/constants/contexts/AppContext'
 import LinearLoader from '../../components/constants/LinearProgress'
 import { getFixtures } from '../../helpers/apiCalls'
-import date from '../../helpers/other'
+import date, { getCurrSeasonYear } from '../../helpers/other'
 import DatePicker from '../../components/matches/DatePicker'
 import MainLayout from '../../components/layouts/MainLayout'
 
@@ -21,7 +21,7 @@ const Matches = () => {
 
   const getFixByLeague = async () => {
     const opts = { 
-      params: { season: 2022, date: date },
+      params: { season: getCurrSeasonYear(), date: date },
       headers: { 'Content-Type': 'application/json' } }
       const data = await getFixtures(opts);
       console.log(data)

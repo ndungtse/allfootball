@@ -8,7 +8,7 @@ import MainLayout from '../../../components/layouts/MainLayout'
 import DateSlider from '../../../components/matches/DateSlider'
 import LeagueSlider from '../../../components/matches/leagueSlider'
 import { getFixtures } from '../../../helpers/apiCalls'
-import newdate from '../../../helpers/other'
+import newdate, { getCurrSeasonYear } from '../../../helpers/other'
 import DatePicker from "../../../components/matches/DatePicker";
 
 const LeagueMatches = () => {
@@ -21,7 +21,7 @@ const LeagueMatches = () => {
 
     const getFixByLeague = async () => {
 			const opts = {
-				params: { league: leagueid, season: 2022, date: date },
+				params: { league: leagueid, season: getCurrSeasonYear(), date: date },
 				headers: { "Content-Type": "application/json" },
 			};
 			const data = await getFixtures(opts);

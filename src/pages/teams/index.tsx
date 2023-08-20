@@ -9,6 +9,7 @@ import { useApp } from '../../components/constants/contexts/AppContext';
 import LinearLoader from '../../components/constants/LinearProgress';
 import { getTeams } from '../../helpers/apiCalls';
 import Image from 'next/image';
+import { getCurrSeasonYear } from '../../helpers/other';
 
 const Teams = () => {
   const { themeClass, setMobile } = useApp();
@@ -18,7 +19,7 @@ const Teams = () => {
 
   const getTeamsByLeague = async () => {
     const opts = { 
-      params: { league: league.id, season: 2022 },
+      params: { league: league.id, season: getCurrSeasonYear() },
       headers: { 'Content-Type': 'application/json' } }
 
       const data = await getTeams(opts);

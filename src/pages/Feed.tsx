@@ -9,7 +9,7 @@ import { useApp } from '../components/constants/contexts/AppContext'
 // import eplfix from '../lib/data/eplfix.json'
 import LinearLoader from '../components/constants/LinearProgress'
 import { getFixtures, getStandings } from '../helpers/apiCalls'
-import date from '../helpers/other'
+import date, { getCurrSeasonYear } from '../helpers/other'
 import Standings from '../components/leagues/Standings'
 
 const Feed = () => {
@@ -22,7 +22,7 @@ const Feed = () => {
     console.log(date);
     
     const opts = { 
-    params: {season: '2022', league: '39', date: date},
+    params: {season: getCurrSeasonYear(), league: '39', date: date},
      headers: { 'Content-Type': 'application/json' } }
     const data  = await getFixtures(opts)
     setEplfix(data.response)
@@ -31,7 +31,7 @@ const Feed = () => {
 
   const getStands = async () => {
     const opts = {
-      params: {season: '2022', league: '39'},
+      params: {season: getCurrSeasonYear(), league: '39'},
       headers: { 'Content-Type': 'application/json' }
     }
     const data = await getStandings(opts);
