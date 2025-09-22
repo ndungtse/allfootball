@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: 'https://api-football-beta.p.rapidapi.com'
+    baseURL: 'https://api-football-v1.p.rapidapi.com/v3'
 })
 
 export const dbApi = axios.create({
