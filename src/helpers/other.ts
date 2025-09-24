@@ -11,7 +11,8 @@ export const getCurrSeasonYear = () => {
     const currMonth = currDate.month();
     const currYear = currDate.year();
     const startYear = currMonth < 6 ? currYear - 1 : currYear;
-    return startYear;
+    return 2023;
+    // return startYear;
 }
 
 export default newdate;

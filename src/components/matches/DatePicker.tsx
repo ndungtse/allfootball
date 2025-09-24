@@ -26,7 +26,7 @@ export default function DatePicker({ date, setDate }: Props) {
 	const handleChange = (newValue: Moment | null) => {
 		console.log(newValue);
 		setValue(moment(newValue));
-		setDate(moment(newValue).format("YYYY-MM-DD"));
+		setDate?.(moment(newValue).format("YYYY-MM-DD"));
 	};
 
 	const Input = (props: TextFieldProps) => {
@@ -54,7 +54,7 @@ export default function DatePicker({ date, setDate }: Props) {
 					className="outline-none border-2 border-slate-300/30 bg-transparent rounded-md px-2 py-[0.1em] "
 					type="text"
 					id="date"
-					onChange={(e: any) => handleChange(e.target.value)}
+					onChange={(e: any) => handleChange?.(e.target.value)}
 					value={inputProps?.value as string}
 				/>
 				{element?.props?.children}

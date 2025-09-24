@@ -1,7 +1,8 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: 'https://api-football-v1.p.rapidapi.com/v3'
+    baseURL: 'https://v3.football.api-sports.io'
+    // baseURL: 'https://api-football-v1.p.rapidapi.com/v3'
 })
 
 export const dbApi = axios.create({
@@ -9,9 +10,13 @@ export const dbApi = axios.create({
 })
 
 export const footHeaders = {
-    'X-RapidAPI-Key': process.env.NEXT_PUBLIC_RAPID,
-    'X-RapidAPI-Host': 'api-football-beta.p.rapidapi.com'
+    'X-RapidAPI-Key': process.env.NEXT_PUBLIC_API_SPORTS,
+    'X-RapidAPI-Host': 'v3.football.api-sports.io'
 }
+// export const footHeaders = {
+//     'X-RapidAPI-Key': process.env.NEXT_PUBLIC_RAPID,
+//     'X-RapidAPI-Host': 'api-football-beta.p.rapidapi.com'
+// }
 
 export const getApi = async (path: string, _options?: any) => {
     try {
